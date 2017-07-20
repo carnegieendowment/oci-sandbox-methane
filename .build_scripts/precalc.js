@@ -19,6 +19,7 @@ var fi = utils.trimMetadataArray(metadata.flare.split(','));
 var pi = utils.trimMetadataArray(metadata.fugitives.split(','));
 var gi = [1,0];
 var zi = [1,0];
+var ai = [1,0];
 var ri = utils.trimMetadataArray(metadata.refinery.split(','));
 var li = [1, 0];
 
@@ -35,10 +36,12 @@ gi.forEach(function (_, g) {
   });
 });
 zi.forEach(function (_, z) {
-  ri.forEach(function (_, r) {
-    li.forEach(function (_, l) {
-      var temp = JSON.parse(fs.readFileSync('app/assets/data/prelim/prelim_run' + z + r + l + '.json'));
-      Oci.data.prelim['run' + z + r + l] = temp;
+  ai.forEach(function (_, a) {
+    ri.forEach(function (_, r) {
+      li.forEach(function (_, l) {
+        var temp = JSON.parse(fs.readFileSync('app/assets/data/prelim/prelim_run' + z + a + r + l + '.json'));
+        Oci.data.prelim['run' + z + a + r + l] = temp;
+      });
     });
   });
 });
