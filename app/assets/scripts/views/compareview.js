@@ -297,7 +297,7 @@ var CompareView = BaseView.extend({
 
     // if we don't have the necessary data, load it
     var opgeeRun = utils.getOPGEEModel(params.gwp, params.fugitives, params.venting, params.water, params.flaring);
-    var prelimRun = utils.getPRELIMModel(params.gwp, params.refinery, params.lpg);
+    var prelimRun = utils.getPRELIMModel(params.gwp, params.hydrogen, params.refinery, params.lpg);
     if (!Oci.Collections.opgee.get(opgeeRun)) {
       var opgeeModel = new OpgeeModel({ id: opgeeRun });
       opgeeModel.fetch({ async: false, success: function (data) {
