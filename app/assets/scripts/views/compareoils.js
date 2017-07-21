@@ -27,6 +27,7 @@ var CompareOils = BaseView.extend({
     'click #price-button': 'showPrices',
     'change #toggle-lpg': 'handleParametersChange',
     'change #toggle-gwp': 'handleParametersChange',
+    'change #toggle-hydrogen': 'handleParametersChange',
     'change .config-dropdown': 'handleDropdown',
     'click .mp-summary': 'handleParametersToggle',
     'change #sort-select': 'handleSortSelect',
