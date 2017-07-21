@@ -47,3 +47,4 @@ test('All possible runs should be readable', function (t) {
         });
       });
     });
+  });
