@@ -27,7 +27,7 @@ var EmissionsDrivers = BaseView.extend({
     'click #emissions-drivers-share': 'handleShare',
     'click': 'hideTip',
     'click #price-button': 'showPrices',
-    'change #toggle-lpg': 'handleParametersChange',
+    'change #toggle-petro': 'handleParametersChange',
     'change #toggle-gwp': 'handleParametersChange',
     'change #toggle-hydrogen': 'handleParametersChange',
     'change .config-dropdown': 'handleDropdown',
@@ -401,7 +401,7 @@ var EmissionsDrivers = BaseView.extend({
 
     // if we don't have the necessary data, load it
     var opgeeRun = utils.getOPGEEModel(params.gwp, params.fugitives, params.venting, params.water, params.flaring);
-    var prelimRun = utils.getPRELIMModel(params.gwp, params.hydrogen, params.refinery, params.lpg);
+    var prelimRun = utils.getPRELIMModel(params.gwp, params.hydrogen, params.refinery, params.petro);
     if (!Oci.Collections.opgee.get(opgeeRun)) {
       var opgeeModel = new OpgeeModel({ id: opgeeRun });
       opgeeModel.fetch({ async: false, success: function (data) {
