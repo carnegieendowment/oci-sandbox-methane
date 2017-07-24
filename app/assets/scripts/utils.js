@@ -639,11 +639,11 @@ var utils = {
   },
 
   // Get the current PRELIM model
-  getPRELIMModel: function (gwp, hydrogen, refinery, lpg) {
+  getPRELIMModel: function (gwp, hydrogen, refinery, petro) {
     var metadata = Oci.data.metadata;
     var zi = Number(gwp);
     var ri = this.trimMetadataArray(metadata.refinery.split(',')).indexOf(refinery);
-    var li = Number(lpg);
+    var li = Number(petro);
     var ai = Number(hydrogen);
     // Generate model string
     var model = 'run';
