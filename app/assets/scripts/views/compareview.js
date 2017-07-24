@@ -20,7 +20,7 @@ var CompareView = BaseView.extend({
   el: '.content',
 
   events: {
-    'change #toggle-lpg': 'handleParametersChange',
+    'change #toggle-petro': 'handleParametersChange',
     'change #toggle-gwp': 'handleParametersChange',
     'change .config-dropdown': 'handleDropdown',
     'click #oil-details-share': 'handleShare',
@@ -297,7 +297,7 @@ var CompareView = BaseView.extend({
 
     // if we don't have the necessary data, load it
     var opgeeRun = utils.getOPGEEModel(params.gwp, params.fugitives, params.venting, params.water, params.flaring);
-    var prelimRun = utils.getPRELIMModel(params.gwp, params.hydrogen, params.refinery, params.lpg);
+    var prelimRun = utils.getPRELIMModel(params.gwp, params.hydrogen, params.refinery, params.petro);
     if (!Oci.Collections.opgee.get(opgeeRun)) {
       var opgeeModel = new OpgeeModel({ id: opgeeRun });
       opgeeModel.fetch({ async: false, success: function (data) {
