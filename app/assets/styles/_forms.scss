@@ -279,18 +279,18 @@ input[type=radio] {
   width: 100%;
   text-align: right;
 }
-.switch.lpg-override {
+.switch.petro-override {
   .switch-ui:after {
-    content: "Use";
+    content: "No";
     padding-right: 10px;
   }
-  input:checked ~ .switch-ui:after { content: "Sell"; }
+  input:checked ~ .switch-ui:after { content: "Yes"; }
 }
 .switch input:checked ~ .switch-ui:after {
   @extend .antialiased;
   text-align: left;
   color: #fff;
-  content: "On";
+  content: "No";
 }
 .switch.gwp-override {
   .switch-ui:after {
