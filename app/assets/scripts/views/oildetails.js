@@ -20,7 +20,7 @@ var OilDetails = BaseView.extend({
   el: '.content',
 
   events: {
-    'change #toggle-lpg': 'handleParametersChange',
+    'change #toggle-petro': 'handleParametersChange',
     'change #toggle-hydrogen': 'handleParametersChange',
     'change #toggle-gwp': 'handleParametersChange',
     'change .config-dropdown': 'handleDropdown',
