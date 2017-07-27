@@ -281,16 +281,16 @@ input[type=radio] {
 }
 .switch.petro-override {
   .switch-ui:after {
-    content: "No";
+    content: "Yes";
     padding-right: 10px;
   }
-  input:checked ~ .switch-ui:after { content: "Yes"; }
+  input:checked ~ .switch-ui:after { content: "No"; }
 }
 .switch input:checked ~ .switch-ui:after {
   @extend .antialiased;
   text-align: left;
   color: #fff;
-  content: "No";
+  content: "Yes";
 }
 .switch.gwp-override {
   .switch-ui:after {
