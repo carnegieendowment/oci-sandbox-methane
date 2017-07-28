@@ -117,7 +117,7 @@ var ModelParameters = Backbone.View.extend({
     $('.value.water span').html(water + '%');
     var petcoke = parseInt(this.cokeSlider.get());
     $('.value.petcoke span').html(petcoke + '%');
-    var petro = $('#toggle-petro').is(':checked') ? 'Yes' : 'No';
+    var petro = $('#toggle-petro').is(':checked') ? 'No' : 'Yes';
     $('.value.petro span').html(petro);
     var hydrogen = $('#toggle-hydrogen').is(':checked') ? 'No' : 'Yes';
     $('.value.hydrogen span').html(hydrogen);
