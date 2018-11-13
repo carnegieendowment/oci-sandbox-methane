@@ -1,0 +1,25 @@
+_prefs: 
+  mapid: carnegiecomms.0de7b5ba
+  saveCenter: true
+_properties: {}
+attribution: ''
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -175.7813
+  - -25.7999
+  - 0
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 14
+minzoom: 0
+name: OCI 2017
+source: "mapbox:///carnegiecomms.dvwvyuzc"
+styles: 
+  - style.mss
+template: ''
