@@ -9,14 +9,14 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -94.3066
-  - 47.4578
-  - 4
+  - -139.9219
+  - -22.5937
+  - 1
 description: ''
 format: "png8:m=h"
 interactivity_layer: ''
 layers: null
-maxzoom: 14
+maxzoom: 18
 minzoom: 0
 name: OCI 2017
 source: "mapbox:///carnegiecomms.dvwvyuzc"

@@ -4,9 +4,9 @@
 
 <Parameters>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">-94.3066,47.4578,4</Parameter>
+  <Parameter name="center">-139.9219,-22.5937,1</Parameter>
   <Parameter name="format">png8:m=h</Parameter>
-  <Parameter name="maxzoom">14</Parameter>
+  <Parameter name="maxzoom">18</Parameter>
   <Parameter name="minzoom">0</Parameter>
   <Parameter name="name"><![CDATA[OCI 2017]]></Parameter>
   <Parameter name="source"><![CDATA[mapbox:///carnegiecomms.dvwvyuzc]]></Parameter>
