@@ -64,6 +64,7 @@ var MapView = BaseView.extend({
       '2012': L.mapbox.tileLayer('carnegiecomms.9c2f044c'),
       '2013': L.mapbox.tileLayer('carnegiecomms.9e285c3e'),
       '2014': L.mapbox.tileLayer('carnegiecomms.1d1c0ebe'),
+      '2017': L.mapbox.tileLayer('carnegiecomms.0de7b5ba'),
       'off': null
     };
     var map = L.mapbox.map(
