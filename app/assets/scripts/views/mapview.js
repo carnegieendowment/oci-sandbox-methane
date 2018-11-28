@@ -23,7 +23,8 @@ var MapView = BaseView.extend({
   events: {
     'change #year-select': 'handleYearChange',
     'click .world-zoom': 'worldZoom',
-    'click .zoom-field': 'handleZoomToField'
+    'click .zoom-field': 'handleZoomToField',
+    'click .toggle-methane': 'handleToggleLayer'
   },
 
   initialize: function () {
@@ -65,6 +66,7 @@ var MapView = BaseView.extend({
       '2013': L.mapbox.tileLayer('carnegiecomms.9e285c3e'),
       '2014': L.mapbox.tileLayer('carnegiecomms.1d1c0ebe'),
       '2017': L.mapbox.tileLayer('carnegiecomms.0de7b5ba'),
+      'methane-2018': L.mapbox.tileLayer('carnegiecomms.c1247a8f'),
       'off': null
     };
     var map = L.mapbox.map(
@@ -77,8 +79,8 @@ var MapView = BaseView.extend({
         maxZoom: 18
       }
     )
-    .addLayer(this.flaringLayers['2014'])
-    .setView([30, 0], 2);
+      .addLayer(this.flaringLayers['2014'])
+      .setView([30, 0], 2);
 
     new L.Control.Zoom({ position: 'bottomright' }).addTo(map);
     this.map = map;
@@ -205,7 +207,7 @@ var MapView = BaseView.extend({
   },
 
   render: function () {
-    this.$el.html(this.template({blueBar: blueBar()}));
+    this.$el.html(this.template({ blueBar: blueBar() }));
     this._setupShare();
     this._activateSearchBar();
   },
@@ -222,7 +224,7 @@ var MapView = BaseView.extend({
       .append('svg')
       .attr('width', width + margin + margin)
       .attr('height', height + margin + margin)
-        .append('g')
+      .append('g')
       .attr('transform', 'translate(' + margin + ',' + margin + ')');
 
     // Hard-code emissions information
@@ -239,21 +241,21 @@ var MapView = BaseView.extend({
     var cx = 80;
 
     legend.selectAll('.circle-legend')
-       .data(data)
-       .enter()
-       .append('circle')
-       .classed('circle-legend', true)
-       .attr('fill-opacity', '0')
-       .attr('stroke', '#777')
-       .attr('cx', cx)
-       .attr('cy', function (d, i) { return cys[i]; })
-       .attr('r', function (d, i) { return radii[i]; });
+      .data(data)
+      .enter()
+      .append('circle')
+      .classed('circle-legend', true)
+      .attr('fill-opacity', '0')
+      .attr('stroke', '#777')
+      .attr('cx', cx)
+      .attr('cy', function (d, i) { return cys[i]; })
+      .attr('r', function (d, i) { return radii[i]; });
 
     legend.selectAll('.circle-legend')
-       .data(data)
-       .attr('cx', cx)
-       .attr('cy', function (d, i) { return cys[i]; })
-       .attr('r', function (d, i) { return radii[i]; });
+      .data(data)
+      .attr('cx', cx)
+      .attr('cy', function (d, i) { return cys[i]; })
+      .attr('r', function (d, i) { return radii[i]; });
 
     legend.selectAll('.circle-text')
       .data(data)
@@ -293,22 +295,22 @@ var MapView = BaseView.extend({
     var flaringUnits = 'million m\u00B3';
 
     legend.selectAll('.dot-legend')
-       .data(flaringLabels)
-       .enter()
-       .append('circle')
-       .classed('dot-legend', true)
-       .attr('cx', function (d, i) { return cx + flaringXs[i]; })
-       .attr('cy', flaringY)
-       .attr('r', flaringRadius)
-       .attr('fill', function (d, i) { return flaringColors[i]; });
+      .data(flaringLabels)
+      .enter()
+      .append('circle')
+      .classed('dot-legend', true)
+      .attr('cx', function (d, i) { return cx + flaringXs[i]; })
+      .attr('cy', flaringY)
+      .attr('r', flaringRadius)
+      .attr('fill', function (d, i) { return flaringColors[i]; });
 
     legend.selectAll('.dot-text')
       .data(flaringLabels)
       .enter()
       .append('text')
       .attr('class', 'dot-text')
-       .attr('x', function (d, i) { return cx + flaringXs[i] + 3; })
-       .attr('y', flaringLabelY)
+      .attr('x', function (d, i) { return cx + flaringXs[i] + 3; })
+      .attr('y', flaringLabelY)
       .attr('text-anchor', 'middle')
       .style('fill', '#fff')
       .text(function (d, i) { return d; });
@@ -364,6 +366,12 @@ var MapView = BaseView.extend({
     if (layer) { this.map.addLayer(layer); }
 
     this._updateCopyLink();
+  },
+
+  handleToggleLayer: function () {
+    var isActiveMethane2018Layer = $('[name=methane-2018]:checked').val();
+    var layer = this.flaringLayers['methane-2018'];
+    isActiveMethane2018Layer ? this.map.addLayer(layer) : this.map.removeLayer(layer);
   },
 
   makeBakkenTooltip: function (d) {

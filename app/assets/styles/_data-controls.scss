@@ -133,8 +133,22 @@
   }
 }
 
+.map-toogle {
+  top: 15.5em;
+  width: 150px;
+  padding: .3em .8em;
+  &:hover {
+    .map-tooltip {
+      visibility: visible;
+    }
+  }
+  @media screen and (max-width: 670px) {
+    top: 4.5em;
+  }
+}
+
 .map-instructions {
-  top: 13.5em;
+  top: 17.8em;
   padding: .3em .8em;
   &:hover {
     .map-tooltip {
