@@ -236,7 +236,7 @@ var ModelParameters = Backbone.View.extend({
     this.waterSlider.on('update', function (value) {
       self.trigger('sliderUpdate', value);
     });
-      
+
     this.solarsteamSlider = noUiSlider.create($('#slider-solarsteam')[0], {
       start: 0,
       connect: 'lower',
