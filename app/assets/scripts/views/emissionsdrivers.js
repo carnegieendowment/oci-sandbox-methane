@@ -29,6 +29,7 @@ var EmissionsDrivers = BaseView.extend({
     'click #price-button': 'showPrices',
     'change #toggle-petro': 'handleParametersChange',
     'change #toggle-gwp': 'handleParametersChange',
+    'change #toggle-methane': 'handleParametersChange',
     'change #toggle-hydrogen': 'handleParametersChange',
     'change .config-dropdown': 'handleDropdown',
     'click .mp-summary': 'handleParametersToggle',
