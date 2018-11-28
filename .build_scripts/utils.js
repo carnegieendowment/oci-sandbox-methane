@@ -53,7 +53,7 @@ var utils = {
               for (var j = 0; j < data.metadata.water.split(',').length; j++) {
                 for (var k = 0; k < data.metadata.flare.split(',').length; k++) {
                   for (var s = 0; s < data.metadata.solarsteam.split(',').length; s++) {
-                    var opgee = data.opgee['run' + g + p + v + j + k][key];
+                    var opgee = data.opgee['run' + t + g + p + v + j + k + s][key];
                     var extraction = +opgee['Net lifecycle emissions'];
 
                     if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
@@ -71,7 +71,7 @@ var utils = {
             // this for loop is for LPG runs
             for (var m = 0; m < 2; m++) {
               for (var y = 0; y < 2; y++) {
-                var prelim = data.prelim['run' + z + a + l + m][key];
+                var prelim = data.prelim['run' + z + a + l + m + y][key];
                 // we might not have a prelim run for this oil (certain oils don't
                 // run through some refineries)
                 if (!prelim) break;
