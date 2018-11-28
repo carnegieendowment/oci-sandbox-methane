@@ -66,8 +66,10 @@ var MapView = BaseView.extend({
       '2013': L.mapbox.tileLayer('carnegiecomms.9e285c3e'),
       '2014': L.mapbox.tileLayer('carnegiecomms.1d1c0ebe'),
       '2017': L.mapbox.tileLayer('carnegiecomms.0de7b5ba'),
-      'methane-2018': L.mapbox.tileLayer('carnegiecomms.c1247a8f'),
       'off': null
+    };
+    this.toggleLayers = {
+      'methane-2018': L.mapbox.tileLayer('carnegiecomms.c1247a8f')
     };
     var map = L.mapbox.map(
       'map',
@@ -370,7 +372,7 @@ var MapView = BaseView.extend({
 
   handleToggleLayer: function () {
     var isActiveMethane2018Layer = $('[name=methane-2018]:checked').val();
-    var layer = this.flaringLayers['methane-2018'];
+    var layer = this.toggleLayers['methane-2018'];
     isActiveMethane2018Layer ? this.map.addLayer(layer) : this.map.removeLayer(layer);
   },
 
