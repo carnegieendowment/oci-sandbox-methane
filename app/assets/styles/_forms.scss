@@ -279,7 +279,7 @@ input[type=radio] {
   width: 100%;
   text-align: right;
 }
-.switch.petro-override {
+.switch.lpg-override {
   .switch-ui:after {
     content: "Yes";
     padding-right: 10px;
@@ -312,6 +312,25 @@ input[type=radio] {
   content: "100";
 }
 .switch.hydrogen-override {
+  .switch-ui:after {
+    content: "Yes";
+    padding-right: 10px;
+  }
+  input:checked ~ .switch-ui:after { content: "No"; }
+}
+.switch input:checked ~ .switch-ui {
+  background: tint($base-color, 20%);
+}
+.switch input:checked ~ .switch-ui:before {
+  left: calc(100% - 24px);
+}
+.switch input:checked ~ .switch-ui:after {
+  @extend .antialiased;
+  text-align: left;
+  color: #fff;
+  content: "Yes";
+}
+.switch.methane-override {
   .switch-ui:after {
     content: "Yes";
     padding-right: 10px;
