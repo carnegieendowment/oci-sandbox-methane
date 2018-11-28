@@ -22,16 +22,23 @@ test('All possible runs should be readable', function (t) {
   var fi = metadata.flare.split(',');
   var pi = metadata.fugitives.split(',');
   var ri = metadata.refinery.split(',');
+  var si = metadata.solarsteam.split(',');
+  var ti = [1,0];
+  var yi = [1,0];
   var ai = [1,0];
   var zi = [1,0];
   var li = [1, 0];
 
-  gi.forEach(function (_, g) {
-    vi.forEach(function (_, v) {
-      pi.forEach(function (_,p) {
-        wi.forEach(function (_, w) {
-          fi.forEach(function (_, f) {
-            t.notThrows(function () { JSON.parse(fs.readFileSync('../app/assets/data/opgee/opgee_run' + g + p + v + w + f + '.json')); });
+  ti.forEach(function (_,t) {
+    gi.forEach(function (_, g) {
+      vi.forEach(function (_, v) {
+        pi.forEach(function (_,p) {
+          wi.forEach(function (_, w) {
+            fi.forEach(function (_, f) {
+              si.forEach(function (_, s) {
+                t.notThrows(function () { JSON.parse(fs.readFileSync('../app/assets/data/opgee/opgee_run' + t + g + p + v + w + f + s + '.json')); });
+              });
+            });
           });
         });
       });
@@ -42,7 +49,9 @@ test('All possible runs should be readable', function (t) {
       ai.forEach(function (_, a) {
         ri.forEach(function (_, r) {
          li.forEach(function (_, l) {
-            t.notThrows(function () { JSON.parse(fs.readFileSync('../app/assets/data/prelim/prelim_run' + z + a + r + l + '.json')); });
+           yi.forEach(function (_, y) {
+             t.notThrows(function () { JSON.parse(fs.readFileSync('../app/assets/data/prelim/prelim_run' + z + a + r + l + y + '.json')); });
+           });
           });
         });
       });
