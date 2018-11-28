@@ -54,7 +54,7 @@ var ModelParameters = Backbone.View.extend({
       fugitives: (this.fugitivesSlider.get() / 100),
       water: (this.waterSlider.get() / 100),
       flaring: (this.flaringSlider.get() / 100),
-      solarsteam: (this.solarsteamSlider.get() /100),
+      solarsteam: (this.solarsteamSlider.get() / 100),
       showCoke: (this.cokeSlider.get() / 100),
       refinery: $('#dropdown-refinery').val(),
       lpg: $('#toggle-lpg').is(':checked'),
@@ -99,7 +99,6 @@ var ModelParameters = Backbone.View.extend({
         var refinery = params.prelim[3];
         var lpg = params.prelim[4];
         var hydrogen = params.prelim[5];
-        var methane = params.prelim[6];
         $('#dropdown-refinery').prop('selectedIndex', refinery);
         $('#toggle-lpg').attr('checked', Boolean(lpg));
         $('#toggle-hydrogen').attr('checked', Boolean(hydrogen));
@@ -238,7 +237,7 @@ var ModelParameters = Backbone.View.extend({
       self.trigger('sliderUpdate', value);
     });
       
-        this.solarsteamSlider = noUiSlider.create($('#slider-solarsteam')[0], {
+    this.solarsteamSlider = noUiSlider.create($('#slider-solarsteam')[0], {
       start: 0,
       connect: 'lower',
       snap: true,
