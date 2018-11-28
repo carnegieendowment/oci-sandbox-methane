@@ -23,6 +23,7 @@ var CompareView = BaseView.extend({
     'change #toggle-lpg': 'handleParametersChange',
     'change #toggle-gwp': 'handleParametersChange',
     'change #toggle-methane': 'handleParametersChange',
+    'change #toggle-hydrogen': 'handleParametersChange',
     'change .config-dropdown': 'handleDropdown',
     'click #oil-details-share': 'handleShare',
     'click .carosel-arrow': 'handleCarosel',
