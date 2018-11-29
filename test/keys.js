@@ -29,9 +29,9 @@ test('All possible runs should be readable', function (t) {
   var zi = [1,0];
   var li = [1, 0];
 
-  ti.forEach(function (_,t) {
+  ti.forEach(function (_, t) {
     gi.forEach(function (_, g) {
-      pi.forEach(function (_,p) {
+      pi.forEach(function (_, p) {
         vi.forEach(function (_, v) {
           wi.forEach(function (_, w) {
             fi.forEach(function (_, f) {
@@ -45,7 +45,7 @@ test('All possible runs should be readable', function (t) {
     });
   });
 
-  zi.forEach(function (_,z) {
+  zi.forEach(function (_, z) {
       ai.forEach(function (_, a) {
         ri.forEach(function (_, r) {
          li.forEach(function (_, l) {
