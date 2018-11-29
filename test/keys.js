@@ -31,8 +31,8 @@ test('All possible runs should be readable', function (t) {
 
   ti.forEach(function (_,t) {
     gi.forEach(function (_, g) {
-      vi.forEach(function (_, v) {
-        pi.forEach(function (_,p) {
+      pi.forEach(function (_,p) {
+        vi.forEach(function (_, v) {
           wi.forEach(function (_, w) {
             fi.forEach(function (_, f) {
               si.forEach(function (_, s) {
