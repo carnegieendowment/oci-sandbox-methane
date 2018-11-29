@@ -20,7 +20,7 @@ test('All possible runs should be readable', function (t) {
   var ti = metadata.methane.split(',');
   var gi = metadata.gwp.split(',');
   var pi = metadata.fugitives.split(',');
-  var si = metadata.solarSteam.split(',');
+  var si = metadata.solarsteam.split(',');
   var wi = metadata.water.split(',');
   var fi = metadata.flare.split(',');
   var ri = metadata.refinery.split(',');
