@@ -50,7 +50,7 @@ test('All possible runs should be readable', function (t) {
       ri.forEach(function (_, r) {
         li.forEach(function (_, l) {
           yi.forEach(function (_, y) {
-            t.notThrows(function () { JSON.parse(fs.readFileSync('../app/assets/data/prelim/prelim_run' + r + l + '.json')); });
+            t.notThrows(function () { JSON.parse(fs.readFileSync('../app/assets/data/prelim/prelim_run' + z + a + r + l + y + '.json')); });
           });
         });
       });
