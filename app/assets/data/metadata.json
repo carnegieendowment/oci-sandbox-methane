@@ -5,6 +5,6 @@
   "refinery": "0 = Default, 1 = Hydroskimming, 2 = Medium Conversion, 3 = Deep Conversion (Coking), 4 = Deep Conversion (Hydrotreating)",
   "gwp": "100, 20",
   "fugitives": "1, 1.25",
-  "methane": "0,1",
+  "methane": "0, 1",
   "solarsteam": "0, 0.4"
 }
