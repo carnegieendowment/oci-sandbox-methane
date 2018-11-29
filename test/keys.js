@@ -17,18 +17,18 @@ test('All possible runs should be readable', function (t) {
   // Load all data based on metadata
   var metadata = JSON.parse(fs.readFileSync('../app/assets/data/metadata.json'));
   var vi = metadata.venting.split(',');
+  var ti = metadata.methane.split(',');
   var gi = metadata.gwp.split(',');
+  var pi = metadata.fugitives.split(',');
+  var si = metadata.solarSteam.split(',');
   var wi = metadata.water.split(',');
   var fi = metadata.flare.split(',');
-  var pi = metadata.fugitives.split(',');
   var ri = metadata.refinery.split(',');
-  var si = metadata.solarsteam.split(',');
-  var ti = metadata.methane.split(',');
+  var li = [1, 0];
   var yi = [1, 0];
   var ai = [1, 0];
   var zi = [1, 0];
-  var li = [1, 0];
-
+  
   ti.forEach(function (_, t) {
     gi.forEach(function (_, g) {
       pi.forEach(function (_, p) {
@@ -44,16 +44,16 @@ test('All possible runs should be readable', function (t) {
       });
     });
   });
-
+  
   zi.forEach(function (_, z) {
-      ai.forEach(function (_, a) {
-        ri.forEach(function (_, r) {
-         li.forEach(function (_, l) {
-           yi.forEach(function (_, y) {
-             t.notThrows(function () { JSON.parse(fs.readFileSync('../app/assets/data/prelim/prelim_run' + z + a + r + l + y + '.json')); });
-           });
+    ai.forEach(function (_, a) {
+      ri.forEach(function (_, r) {
+        li.forEach(function (_, l) {
+          yi.forEach(function (_, y) {
+            t.notThrows(function () { JSON.parse(fs.readFileSync('../app/assets/data/prelim/prelim_run' + r + l + '.json')); });
           });
         });
       });
     });
   });
+});
