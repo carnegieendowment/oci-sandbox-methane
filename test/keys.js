@@ -17,7 +17,7 @@ test('All possible runs should be readable', function (t) {
   // Load all data based on metadata
   var metadata = JSON.parse(fs.readFileSync('../app/assets/data/metadata.json'));
   var vi = metadata.venting.split(',');
-  var ti = metadata.methane.split(',');
+  var ji = metadata.methane.split(',');
   var gi = metadata.gwp.split(',');
   var pi = metadata.fugitives.split(',');
   var si = metadata.solarsteam.split(',');
@@ -29,14 +29,14 @@ test('All possible runs should be readable', function (t) {
   var ai = [1, 0];
   var zi = [1, 0];
   
-  ti.forEach(function (_, t) {
+  ji.forEach(function (_, j) {
     gi.forEach(function (_, g) {
       pi.forEach(function (_, p) {
         vi.forEach(function (_, v) {
           wi.forEach(function (_, w) {
             fi.forEach(function (_, f) {
               si.forEach(function (_, s) {
-                t.notThrows(function () { JSON.parse(fs.readFileSync('../app/assets/data/opgee/opgee_run' + t + g + p + v + w + f + s + '.json')); });
+                t.notThrows(function () { JSON.parse(fs.readFileSync('../app/assets/data/opgee/opgee_run' + j + g + p + v + w + f + s + '.json')); });
               });
             });
           });
