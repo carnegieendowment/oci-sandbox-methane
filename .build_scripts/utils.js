@@ -58,6 +58,7 @@ var utils = {
 
                     if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
                   opgeeExtent = extraction;
+                    }
                   }
                 }
               }
