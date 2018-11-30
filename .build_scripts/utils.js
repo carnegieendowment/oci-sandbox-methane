@@ -76,38 +76,38 @@ var utils = {
                 // run through some refineries)
                 if (!prelim) break;
 
-              [0, 0.5, 1].forEach(function (showCoke) {
-                var refining = +utils.getRefiningTotal(prelim);
-                var combustion = +utils.getCombustionTotal(prelim, showCoke, m);
+                [0, 0.5, 1].forEach(function (showCoke) {
+                  var refining = +utils.getRefiningTotal(prelim);
+                  var combustion = +utils.getCombustionTotal(prelim, showCoke, m);
 
-                // Sum it up! (conditionally based on whether component is selected)
-                var total;
-                components.upstream = opgeeExtent;
-                components.midstream = refining;
-                components.downstream = combustion + transport;
-                if (component) {
-                  total = components[component];
-                } else {
-                  total = _.reduce(components, function (a, b) { return a + b; }, 0);
-                }
+                  // Sum it up! (conditionally based on whether component is selected)
+                  var total;
+                  components.upstream = opgeeExtent;
+                  components.midstream = refining;
+                  components.downstream = combustion + transport;
+                  if (component) {
+                    total = components[component];
+                  } else {
+                    total = _.reduce(components, function (a, b) { return a + b; }, 0);
+                  }
 
-                // Handle ratio
-                total = utils.getValueForRatio(total, ratio, prelim, showCoke, data.info[key], m);
+                  // Handle ratio
+                  total = utils.getValueForRatio(total, ratio, prelim, showCoke, data.info[key], m);
 
-                // Check which is bigger (or smaller)
-                if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
-                  opgeeExtent = extraction;
-                }
-                if (!extent || (total * minMaxMultiplier > extent * minMaxMultiplier)) {
-                  extent = total;
-                }
-              });
+                  // Check which is bigger (or smaller)
+                  if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
+                    opgeeExtent = extraction;
+                  }
+                  if (!extent || (total * minMaxMultiplier > extent * minMaxMultiplier)) {
+                    extent = total;
+                  }
+                });
+              }
             }
           }
         }
       }
     }
-  }
 
     // store for later
     if (!Oci.data.globalExtents[ratio]) {
