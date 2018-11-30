@@ -57,7 +57,7 @@ var utils = {
                     var extraction = +opgee['Net lifecycle emissions'];
 
                     if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
-                  opgeeExtent = extraction;
+                      opgeeExtent = extraction;
                     }
                   }
                 }
