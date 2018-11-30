@@ -18,11 +18,11 @@ var wi = utils.trimMetadataArray(metadata.water.split(','));
 var fi = utils.trimMetadataArray(metadata.flare.split(','));
 var pi = utils.trimMetadataArray(metadata.fugitives.split(','));
 var si = utils.trimMetadataArray(metadata.solarsteam.split(','));
-var ti = [1,0];
-var yi = [1,0];
-var gi = [1,0];
-var zi = [1,0];
-var ai = [1,0];
+var ti = [1, 0];
+var yi = [1, 0];
+var gi = [1, 0];
+var zi = [1, 0];
+var ai = [1, 0];
 var ri = utils.trimMetadataArray(metadata.refinery.split(','));
 var li = [1, 0];
 
