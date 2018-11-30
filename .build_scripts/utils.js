@@ -46,7 +46,7 @@ var utils = {
     for (var key in oils) {
       var opgeeExtent = null;
       var transport = +oils[key]['Transport Emissions'];  // Transport total
-      for (var t = 0; t < t < 2; t++) {
+      for (var t = 0; t < 2; t++) {
         for (var g = 0; g < 2; g++) {
           for (var p = 0; p < data.metadata.fugitives.split(',').length; p++) {
             for (var v = 0; v < data.metadata.venting.split(',').length; v++) {
