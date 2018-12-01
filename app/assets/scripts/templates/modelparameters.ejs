@@ -46,7 +46,7 @@
       <div class="value hydrogen"><span></span></div>
     </li>
     <li>
-      <h6 class="key icon-lpg" data-title-after="Select whether the refinery sells LPG or burns it as refinery fuel gas.">LPG</h6>
+      <h6 class="key icon-lpg" data-title-after="Select whether the refinery sells LPG or burns it as refinery fuel gas.">Liquefied Petroleum Gas</h6>
       <div class="value lpg"><span></span></div>
     </li>
   </ul>
@@ -78,7 +78,7 @@
       <strong class="param-title">Solar Steam</strong>
       <span data-title-after="Select the fraction of solar-generated steam used for enhanced oil recovery." class="icon-information">?</span>
     </div>
-    <div class="slider" id="slider-fugitives"></div>
+    <div class="slider" id="slider-solarsteam"></div>
   </div>
   <div class="param-control icon-water">
     <div class="container-filter_title">
@@ -109,12 +109,12 @@
   </div>
   <div class="param-control icon-solar-steam">
      <div class="container-filter_title">
-      <strong class="param-title">Methane Emissions Only</strong>
+      <strong class="param-title">Methane Emissions</strong>
       <span data-title-before="Select whether all emissions or only methane emissions are modeled here." class="icon-information">?</span>
     </div>
-    <label class="switch gwp-override" for="toggle-gwp">
+    <label class="switch methane-override" for="toggle-methane">
       <input id="toggle-gwp" type="checkbox" unchecked />
-      <span class="switch-text">Global Warming Potential</span>
+      <span class="switch-text">Methane Emissions Only</span>
       <span class="switch-ui"></span>
     </label>
   </div>
@@ -123,9 +123,9 @@
       <strong class="param-title">Global Warming Potential</strong>
       <span data-title-before="Select whether a 20 or 100 year Global Warming Potential is used to assess impact of non-CO2 emissions." class="icon-information">?</span>
     </div>
-    <label class="switch methane-override" for="toggle-methane">
-      <input id="toggle-methane" type="checkbox" unchecked />
-      <span class="switch-text">Methane Emissions Only</span>
+    <label class="switch methane-override" for="toggle-gwp">
+      <input id="toggle-gwp" type="checkbox" unchecked />
+      <span class="switch-text">Global Warming Potential</span>
       <span class="switch-ui"></span>
     </label>
   </div>
@@ -147,7 +147,7 @@
     </div>
     <label class="switch lpg-override" for="toggle-lpg">
       <input id="toggle-lpg" type="checkbox" checked />
-      <span class="switch-text">Liquid Petroleum Gas</span>
+      <span class="switch-text">Liquefied Petroleum Gas</span>
       <span class="switch-ui"></span>
     </label>
   </div>
