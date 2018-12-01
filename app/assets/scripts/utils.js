@@ -727,8 +727,8 @@ var utils = {
         value: this.aggregatePrelim(prelim, 'Hydrogen')
       },
       {
-        name: 'Catalyst Regeneration (Fluid Catalytic Cracking)',
-        value: +prelim['Fluid Catalytic Cracking Regeneration']
+        name: 'Other Emissions',
+        value: +prelim['Other Emissions']
       }
     ];
     return _.filter(refining, function (el) {
