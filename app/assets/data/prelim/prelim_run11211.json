@@ -40,11 +40,11 @@
     "Jet Fuel": "0.299271035",
     "Diesel": "0.330540591",
     "Fuel Oil": "2.06169E-13",
-    "Petroleum Coke (reported in kg/d)": "1.35417E-21",
-    "Liquid Heavy Ends": "0.353584226",
+    "Petroleum Coke": "1.35417E-21",
+    "Residual Fuels": "0.353584226",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.350215573",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Angola Kuito": {
@@ -88,11 +88,11 @@
     "Jet Fuel": "0.151305942",
     "Diesel": "0.290110495",
     "Fuel Oil": "2.38564E-13",
-    "Petroleum Coke (reported in kg/d)": "1.44169E-21",
-    "Liquid Heavy Ends": "0.763211047",
+    "Petroleum Coke": "1.44169E-21",
+    "Residual Fuels": "0.763211047",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.210333523",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Angola Takula": {
@@ -136,11 +136,11 @@
     "Jet Fuel": "0.237079641",
     "Diesel": "0.281385029",
     "Fuel Oil": "1.48106E-13",
-    "Petroleum Coke (reported in kg/d)": "1.48655E-21",
-    "Liquid Heavy Ends": "0.473470768",
+    "Petroleum Coke": "1.48655E-21",
+    "Residual Fuels": "0.473470768",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.319501801",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Australia Cossack": {
@@ -184,11 +184,11 @@
     "Jet Fuel": "0.40341775",
     "Diesel": "0.151988598",
     "Fuel Oil": "8.37665E-14",
-    "Petroleum Coke (reported in kg/d)": "5.7237E-22",
-    "Liquid Heavy Ends": "0.097543264",
+    "Petroleum Coke": "5.7237E-22",
+    "Residual Fuels": "0.097543264",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.504819707",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Azerbaijan Azeri Light": {
@@ -232,11 +232,11 @@
     "Jet Fuel": "0.359846345",
     "Diesel": "0.299569726",
     "Fuel Oil": "1.45571E-13",
-    "Petroleum Coke (reported in kg/d)": "1.08492E-21",
-    "Liquid Heavy Ends": "0.264235681",
+    "Petroleum Coke": "1.08492E-21",
+    "Residual Fuels": "0.264235681",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.360162156",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Brazil Frade": {
@@ -280,11 +280,11 @@
     "Jet Fuel": "0.136488514",
     "Diesel": "0.291150959",
     "Fuel Oil": "2.63259E-13",
-    "Petroleum Coke (reported in kg/d)": "1.31507E-21",
-    "Liquid Heavy Ends": "0.860851875",
+    "Petroleum Coke": "1.31507E-21",
+    "Residual Fuels": "0.860851875",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.174775442",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Brazil Lula": {
@@ -328,11 +328,11 @@
     "Jet Fuel": "0.273522568",
     "Diesel": "0.42769986",
     "Fuel Oil": "3.29835E-13",
-    "Petroleum Coke (reported in kg/d)": "4.84985E-21",
-    "Liquid Heavy Ends": "0.177499267",
+    "Petroleum Coke": "4.84985E-21",
+    "Residual Fuels": "0.177499267",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.3939712",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Canada Hibernia": {
@@ -376,11 +376,11 @@
     "Jet Fuel": "0.316349558",
     "Diesel": "0.254650998",
     "Fuel Oil": "1.42815E-13",
-    "Petroleum Coke (reported in kg/d)": "1.35646E-21",
-    "Liquid Heavy Ends": "0.31789589",
+    "Petroleum Coke": "1.35646E-21",
+    "Residual Fuels": "0.31789589",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.385505235",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "China Bozhong": {
@@ -424,11 +424,11 @@
     "Jet Fuel": "0.121987099",
     "Diesel": "0.417318008",
     "Fuel Oil": "3.73563E-13",
-    "Petroleum Coke (reported in kg/d)": "2.0826E-21",
-    "Liquid Heavy Ends": "0.750067368",
+    "Petroleum Coke": "2.0826E-21",
+    "Residual Fuels": "0.750067368",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.179274012",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "China Nanhai Light": {
@@ -472,11 +472,11 @@
     "Jet Fuel": "0.3403159",
     "Diesel": "0.184636031",
     "Fuel Oil": "-2.28501E-14",
-    "Petroleum Coke (reported in kg/d)": "1.73637E-21",
-    "Liquid Heavy Ends": "0.256105311",
+    "Petroleum Coke": "1.73637E-21",
+    "Residual Fuels": "0.256105311",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.422835613",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "China Qinhuangdao": {
@@ -520,11 +520,11 @@
     "Jet Fuel": "0.141458386",
     "Diesel": "0.432369332",
     "Fuel Oil": "3.97479E-13",
-    "Petroleum Coke (reported in kg/d)": "1.89204E-21",
-    "Liquid Heavy Ends": "0.772877712",
+    "Petroleum Coke": "1.89204E-21",
+    "Residual Fuels": "0.772877712",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.183725429",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Colombia Caño Limón": {
@@ -568,11 +568,11 @@
     "Jet Fuel": "0.329270389",
     "Diesel": "0.266400977",
     "Fuel Oil": "1.32858E-13",
-    "Petroleum Coke (reported in kg/d)": "1.31724E-21",
-    "Liquid Heavy Ends": "0.485517387",
+    "Petroleum Coke": "1.31724E-21",
+    "Residual Fuels": "0.485517387",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.317097664",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Colombia Cusiana": {
@@ -616,11 +616,11 @@
     "Jet Fuel": "0.368243113",
     "Diesel": "0.29926701",
     "Fuel Oil": "1.67832E-13",
-    "Petroleum Coke (reported in kg/d)": "1.30636E-21",
-    "Liquid Heavy Ends": "0.194408688",
+    "Petroleum Coke": "1.30636E-21",
+    "Residual Fuels": "0.194408688",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.389197679",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Congo N'Kossa": {
@@ -664,11 +664,11 @@
     "Jet Fuel": "0.328856027",
     "Diesel": "0.144836769",
     "Fuel Oil": "-1.15716E-14",
-    "Petroleum Coke (reported in kg/d)": "9.11007E-22",
-    "Liquid Heavy Ends": "0.293338778",
+    "Petroleum Coke": "9.11007E-22",
+    "Residual Fuels": "0.293338778",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.429141475",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Ecuador Sacha": {
@@ -712,11 +712,11 @@
     "Jet Fuel": "0.353268036",
     "Diesel": "0.272609547",
     "Fuel Oil": "1.55198E-13",
-    "Petroleum Coke (reported in kg/d)": "2.51474E-21",
-    "Liquid Heavy Ends": "0.475048493",
+    "Petroleum Coke": "2.51474E-21",
+    "Residual Fuels": "0.475048493",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.305899606",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Ghana Jubilee": {
@@ -760,11 +760,11 @@
     "Jet Fuel": "0.322906103",
     "Diesel": "0.213093098",
     "Fuel Oil": "8.46158E-14",
-    "Petroleum Coke (reported in kg/d)": "1.35424E-21",
-    "Liquid Heavy Ends": "0.289775545",
+    "Petroleum Coke": "1.35424E-21",
+    "Residual Fuels": "0.289775545",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.414883478",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "India Bombay High": {
@@ -808,11 +808,11 @@
     "Jet Fuel": "0.397701423",
     "Diesel": "0.146295565",
     "Fuel Oil": "-1.42658E-14",
-    "Petroleum Coke (reported in kg/d)": "1.43699E-21",
-    "Liquid Heavy Ends": "0.177186878",
+    "Petroleum Coke": "1.43699E-21",
+    "Residual Fuels": "0.177186878",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.477338951",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Indonesia Duri": {
@@ -856,11 +856,11 @@
     "Jet Fuel": "0.085137633",
     "Diesel": "0.227178056",
     "Fuel Oil": "1.98027E-13",
-    "Petroleum Coke (reported in kg/d)": "1.42984E-21",
-    "Liquid Heavy Ends": "1.065375919",
+    "Petroleum Coke": "1.42984E-21",
+    "Residual Fuels": "1.065375919",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.110778404",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Indonesia Minas": {
@@ -904,11 +904,11 @@
     "Jet Fuel": "0.265745493",
     "Diesel": "0.168400027",
     "Fuel Oil": "-1.80237E-14",
-    "Petroleum Coke (reported in kg/d)": "1.47901E-21",
-    "Liquid Heavy Ends": "0.458983457",
+    "Petroleum Coke": "1.47901E-21",
+    "Residual Fuels": "0.458983457",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.337588154",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Iran Aboozar": {
@@ -952,11 +952,11 @@
     "Jet Fuel": "0.291969961",
     "Diesel": "0.281379563",
     "Fuel Oil": "1.82963E-13",
-    "Petroleum Coke (reported in kg/d)": "2.14098E-21",
-    "Liquid Heavy Ends": "0.497173961",
+    "Petroleum Coke": "2.14098E-21",
+    "Residual Fuels": "0.497173961",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.257374905",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Iran Marun": {
@@ -1000,11 +1000,11 @@
     "Jet Fuel": "0.30110386",
     "Diesel": "0.258325856",
     "Fuel Oil": "1.53988E-13",
-    "Petroleum Coke (reported in kg/d)": "2.13838E-21",
-    "Liquid Heavy Ends": "0.437535766",
+    "Petroleum Coke": "2.13838E-21",
+    "Residual Fuels": "0.437535766",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.331192537",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Iraq Kirkuk": {
@@ -1048,11 +1048,11 @@
     "Jet Fuel": "0.324627101",
     "Diesel": "0.277179389",
     "Fuel Oil": "1.96848E-13",
-    "Petroleum Coke (reported in kg/d)": "2.84526E-21",
-    "Liquid Heavy Ends": "0.326637815",
+    "Petroleum Coke": "2.84526E-21",
+    "Residual Fuels": "0.326637815",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.379979852",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Iraq Rumaila": {
@@ -1096,11 +1096,11 @@
     "Jet Fuel": "0.256180673",
     "Diesel": "0.320631431",
     "Fuel Oil": "2.67797E-13",
-    "Petroleum Coke (reported in kg/d)": "3.42906E-21",
-    "Liquid Heavy Ends": "0.531669897",
+    "Petroleum Coke": "3.42906E-21",
+    "Residual Fuels": "0.531669897",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.30437251",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Iraq West Qurna": {
@@ -1144,11 +1144,11 @@
     "Jet Fuel": "0.256180673",
     "Diesel": "0.320631431",
     "Fuel Oil": "2.67797E-13",
-    "Petroleum Coke (reported in kg/d)": "3.42906E-21",
-    "Liquid Heavy Ends": "0.531669897",
+    "Petroleum Coke": "3.42906E-21",
+    "Residual Fuels": "0.531669897",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.30437251",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Iraq Zubair": {
@@ -1192,11 +1192,11 @@
     "Jet Fuel": "0.284556085",
     "Diesel": "0.29470554",
     "Fuel Oil": "2.24004E-13",
-    "Petroleum Coke (reported in kg/d)": "2.93341E-21",
-    "Liquid Heavy Ends": "0.435182508",
+    "Petroleum Coke": "2.93341E-21",
+    "Residual Fuels": "0.435182508",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.343884876",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Kazakhstan Tengiz": {
@@ -1240,11 +1240,11 @@
     "Jet Fuel": "0.391310347",
     "Diesel": "0.237495236",
     "Fuel Oil": "1.20871E-13",
-    "Petroleum Coke (reported in kg/d)": "3.89186E-22",
-    "Liquid Heavy Ends": "0.185784225",
+    "Petroleum Coke": "3.89186E-22",
+    "Residual Fuels": "0.185784225",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.453758973",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Kuwait Burgan": {
@@ -1288,11 +1288,11 @@
     "Jet Fuel": "0.248470723",
     "Diesel": "0.360705617",
     "Fuel Oil": "3.12113E-13",
-    "Petroleum Coke (reported in kg/d)": "2.56131E-21",
-    "Liquid Heavy Ends": "0.561916429",
+    "Petroleum Coke": "2.56131E-21",
+    "Residual Fuels": "0.561916429",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.263511481",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Kuwait Ratawi": {
@@ -1336,11 +1336,11 @@
     "Jet Fuel": "0.213396251",
     "Diesel": "0.218364544",
     "Fuel Oil": "1.72178E-13",
-    "Petroleum Coke (reported in kg/d)": "2.35123E-21",
-    "Liquid Heavy Ends": "0.766842152",
+    "Petroleum Coke": "2.35123E-21",
+    "Residual Fuels": "0.766842152",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.213708578",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Libya Waha": {
@@ -1384,11 +1384,11 @@
     "Jet Fuel": "0.262679128",
     "Diesel": "0.307827026",
     "Fuel Oil": "1.30232E-13",
-    "Petroleum Coke (reported in kg/d)": "1.26794E-21",
-    "Liquid Heavy Ends": "0.263556947",
+    "Petroleum Coke": "1.26794E-21",
+    "Residual Fuels": "0.263556947",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.3814535",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Mexico Chuc": {
@@ -1432,11 +1432,11 @@
     "Jet Fuel": "0.296696693",
     "Diesel": "0.272384068",
     "Fuel Oil": "1.7827E-13",
-    "Petroleum Coke (reported in kg/d)": "2.14551E-21",
-    "Liquid Heavy Ends": "0.381566059",
+    "Petroleum Coke": "2.14551E-21",
+    "Residual Fuels": "0.381566059",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.38943373",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Nigeria Agbami": {
@@ -1480,11 +1480,11 @@
     "Jet Fuel": "0.50345362",
     "Diesel": "0.195424116",
     "Fuel Oil": "9.30465E-14",
-    "Petroleum Coke (reported in kg/d)": "4.49606E-21",
-    "Liquid Heavy Ends": "0.04356231",
+    "Petroleum Coke": "4.49606E-21",
+    "Residual Fuels": "0.04356231",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.420983054",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Nigeria Bonga": {
@@ -1528,11 +1528,11 @@
     "Jet Fuel": "0.404337718",
     "Diesel": "0.438510776",
     "Fuel Oil": "3.45082E-13",
-    "Petroleum Coke (reported in kg/d)": "1.57745E-21",
-    "Liquid Heavy Ends": "0.19519375",
+    "Petroleum Coke": "1.57745E-21",
+    "Residual Fuels": "0.19519375",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.381292985",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Nigeria Escravos Beach": {
@@ -1576,11 +1576,11 @@
     "Jet Fuel": "0.156785862",
     "Diesel": "0.430796695",
     "Fuel Oil": "2.5769E-13",
-    "Petroleum Coke (reported in kg/d)": "1.66794E-22",
-    "Liquid Heavy Ends": "0.443505195",
+    "Petroleum Coke": "1.66794E-22",
+    "Residual Fuels": "0.443505195",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.304631272",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Nigeria Obagi": {
@@ -1624,11 +1624,11 @@
     "Jet Fuel": "0.457987194",
     "Diesel": "0.184022954",
     "Fuel Oil": "-1.68827E-14",
-    "Petroleum Coke (reported in kg/d)": "1.91791E-21",
-    "Liquid Heavy Ends": "0.186516841",
+    "Petroleum Coke": "1.91791E-21",
+    "Residual Fuels": "0.186516841",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.417416377",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Nigeria Akpo": {
@@ -1672,11 +1672,11 @@
     "Jet Fuel": "0.309549749",
     "Diesel": "0.175825675",
     "Fuel Oil": "5.10793E-14",
-    "Petroleum Coke (reported in kg/d)": "1.09371E-22",
-    "Liquid Heavy Ends": "0.051733461",
+    "Petroleum Coke": "1.09371E-22",
+    "Residual Fuels": "0.051733461",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.609031201",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Norway Draugen": {
@@ -1720,11 +1720,11 @@
     "Jet Fuel": "0.329988536",
     "Diesel": "0.282280356",
     "Fuel Oil": "1.55357E-13",
-    "Petroleum Coke (reported in kg/d)": "4.18202E-21",
-    "Liquid Heavy Ends": "0.211186092",
+    "Petroleum Coke": "4.18202E-21",
+    "Residual Fuels": "0.211186092",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.411049617",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Norway Ekofisk": {
@@ -1768,11 +1768,11 @@
     "Jet Fuel": "0.326823104",
     "Diesel": "0.231782612",
     "Fuel Oil": "1.20712E-13",
-    "Petroleum Coke (reported in kg/d)": "1.20255E-21",
-    "Liquid Heavy Ends": "0.266040572",
+    "Petroleum Coke": "1.20255E-21",
+    "Residual Fuels": "0.266040572",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.389161684",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Qatar Bul Hanine": {
@@ -1816,11 +1816,11 @@
     "Jet Fuel": "0.258236939",
     "Diesel": "0.257166342",
     "Fuel Oil": "2.18198E-13",
-    "Petroleum Coke (reported in kg/d)": "1.61329E-21",
-    "Liquid Heavy Ends": "0.566560204",
+    "Petroleum Coke": "1.61329E-21",
+    "Residual Fuels": "0.566560204",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.289878769",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Qatar Dukhan": {
@@ -1864,11 +1864,11 @@
     "Jet Fuel": "0.325411048",
     "Diesel": "0.216974225",
     "Fuel Oil": "1.21099E-13",
-    "Petroleum Coke (reported in kg/d)": "1.1004E-21",
-    "Liquid Heavy Ends": "0.275632031",
+    "Petroleum Coke": "1.1004E-21",
+    "Residual Fuels": "0.275632031",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.388163349",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Russia Romashkinskoye": {
@@ -1912,11 +1912,11 @@
     "Jet Fuel": "0.299601172",
     "Diesel": "0.279990065",
     "Fuel Oil": "1.85293E-13",
-    "Petroleum Coke (reported in kg/d)": "1.72971E-21",
-    "Liquid Heavy Ends": "0.425843048",
+    "Petroleum Coke": "1.72971E-21",
+    "Residual Fuels": "0.425843048",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.335937203",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Russia Samotlor": {
@@ -1960,11 +1960,11 @@
     "Jet Fuel": "0.355055497",
     "Diesel": "0.267787423",
     "Fuel Oil": "1.7235E-13",
-    "Petroleum Coke (reported in kg/d)": "1.90934E-21",
-    "Liquid Heavy Ends": "0.285673813",
+    "Petroleum Coke": "1.90934E-21",
+    "Residual Fuels": "0.285673813",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.415726187",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Saudi Arabia Ghawar": {
@@ -2008,11 +2008,11 @@
     "Jet Fuel": "0.327279155",
     "Diesel": "0.269282953",
     "Fuel Oil": "1.72429E-13",
-    "Petroleum Coke (reported in kg/d)": "1.79624E-21",
-    "Liquid Heavy Ends": "0.379685816",
+    "Petroleum Coke": "1.79624E-21",
+    "Residual Fuels": "0.379685816",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.348279266",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Saudi Arabia Safaniya": {
@@ -2056,11 +2056,11 @@
     "Jet Fuel": "0.258275531",
     "Diesel": "0.263705369",
     "Fuel Oil": "1.81941E-13",
-    "Petroleum Coke (reported in kg/d)": "2.32656E-21",
-    "Liquid Heavy Ends": "0.546179826",
+    "Petroleum Coke": "2.32656E-21",
+    "Residual Fuels": "0.546179826",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.288147367",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Saudi Arabia Zuluf": {
@@ -2104,11 +2104,11 @@
     "Jet Fuel": "0.296393548",
     "Diesel": "0.280790757",
     "Fuel Oil": "1.84434E-13",
-    "Petroleum Coke (reported in kg/d)": "2.35507E-21",
-    "Liquid Heavy Ends": "0.475862684",
+    "Petroleum Coke": "2.35507E-21",
+    "Residual Fuels": "0.475862684",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.315454972",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "United Arab Emirates Fateh": {
@@ -2152,11 +2152,11 @@
     "Jet Fuel": "0.311040475",
     "Diesel": "0.294030408",
     "Fuel Oil": "1.98862E-13",
-    "Petroleum Coke (reported in kg/d)": "2.4054E-21",
-    "Liquid Heavy Ends": "0.36853431",
+    "Petroleum Coke": "2.4054E-21",
+    "Residual Fuels": "0.36853431",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.37465921",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "United Arab Emirates Murban": {
@@ -2200,11 +2200,11 @@
     "Jet Fuel": "0.436629896",
     "Diesel": "0.215856479",
     "Fuel Oil": "-6.43527E-15",
-    "Petroleum Coke (reported in kg/d)": "1.84599E-21",
-    "Liquid Heavy Ends": "0.098391376",
+    "Petroleum Coke": "1.84599E-21",
+    "Residual Fuels": "0.098391376",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.429208572",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S.  Alaska North Slope": {
@@ -2248,11 +2248,11 @@
     "Jet Fuel": "0.290352431",
     "Diesel": "0.259969302",
     "Fuel Oil": "1.71815E-13",
-    "Petroleum Coke (reported in kg/d)": "3.0279E-21",
-    "Liquid Heavy Ends": "0.290332304",
+    "Petroleum Coke": "3.0279E-21",
+    "Residual Fuels": "0.290332304",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.402977842",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S. Bakken Flare": {
@@ -2296,11 +2296,11 @@
     "Jet Fuel": "0.363683794",
     "Diesel": "0.210274977",
     "Fuel Oil": "1.18813E-13",
-    "Petroleum Coke (reported in kg/d)": "1.23173E-21",
-    "Liquid Heavy Ends": "0.166992035",
+    "Petroleum Coke": "1.23173E-21",
+    "Residual Fuels": "0.166992035",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.45819572",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S. Bakken No Flare": {
@@ -2344,11 +2344,11 @@
     "Jet Fuel": "0.363683794",
     "Diesel": "0.210274977",
     "Fuel Oil": "1.18813E-13",
-    "Petroleum Coke (reported in kg/d)": "1.23173E-21",
-    "Liquid Heavy Ends": "0.166992035",
+    "Petroleum Coke": "1.23173E-21",
+    "Residual Fuels": "0.166992035",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.45819572",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S. Texas Eagle Ford Black Oil Zone": {
@@ -2392,11 +2392,11 @@
     "Jet Fuel": "0.360470214",
     "Diesel": "0.237839088",
     "Fuel Oil": "8.39641E-14",
-    "Petroleum Coke (reported in kg/d)": "1.79804E-23",
-    "Liquid Heavy Ends": "0.127208295",
+    "Petroleum Coke": "1.79804E-23",
+    "Residual Fuels": "0.127208295",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.44192198",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S. Texas Eagle Ford Volatile Oil Zone": {
@@ -2440,11 +2440,11 @@
     "Jet Fuel": "0.371414597",
     "Diesel": "0.130732252",
     "Fuel Oil": "-2.10919E-14",
-    "Petroleum Coke (reported in kg/d)": "1.6352E-22",
-    "Liquid Heavy Ends": "0.168419226",
+    "Petroleum Coke": "1.6352E-22",
+    "Residual Fuels": "0.168419226",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.468675248",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S.  East Texas Field": {
@@ -2488,11 +2488,11 @@
     "Jet Fuel": "0.353442794",
     "Diesel": "0.234510496",
     "Fuel Oil": "1.09471E-13",
-    "Petroleum Coke (reported in kg/d)": "1.4863E-21",
-    "Liquid Heavy Ends": "0.262751059",
+    "Petroleum Coke": "1.4863E-21",
+    "Residual Fuels": "0.262751059",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.390809582",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S. Gulf Mars": {
@@ -2536,11 +2536,11 @@
     "Jet Fuel": "0.26819241",
     "Diesel": "0.266364866",
     "Fuel Oil": "1.94928E-13",
-    "Petroleum Coke (reported in kg/d)": "2.20306E-21",
-    "Liquid Heavy Ends": "0.487322804",
+    "Petroleum Coke": "2.20306E-21",
+    "Residual Fuels": "0.487322804",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.325695004",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S. California Midway Sunset": {
@@ -2584,11 +2584,11 @@
     "Jet Fuel": "0.153357312",
     "Diesel": "0.407339728",
     "Fuel Oil": "3.721E-13",
-    "Petroleum Coke (reported in kg/d)": "2.70948E-21",
-    "Liquid Heavy Ends": "0.842339417",
+    "Petroleum Coke": "2.70948E-21",
+    "Residual Fuels": "0.842339417",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.154837513",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S. Wyoming Salt Creek": {
@@ -2632,11 +2632,11 @@
     "Jet Fuel": "0.352783198",
     "Diesel": "0.264091493",
     "Fuel Oil": "1.45407E-13",
-    "Petroleum Coke (reported in kg/d)": "1.74769E-21",
-    "Liquid Heavy Ends": "0.282170387",
+    "Petroleum Coke": "1.74769E-21",
+    "Residual Fuels": "0.282170387",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.370629117",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S. California South Belridge": {
@@ -2680,11 +2680,11 @@
     "Jet Fuel": "0.143184738",
     "Diesel": "0.24224021",
     "Fuel Oil": "1.92438E-13",
-    "Petroleum Coke (reported in kg/d)": "1.10394E-21",
-    "Liquid Heavy Ends": "1.015680912",
+    "Petroleum Coke": "1.10394E-21",
+    "Residual Fuels": "1.015680912",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.124169215",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S. Texas Spraberry": {
@@ -2728,11 +2728,11 @@
     "Jet Fuel": "0.34468943",
     "Diesel": "0.202115925",
     "Fuel Oil": "8.4479E-14",
-    "Petroleum Coke (reported in kg/d)": "7.74849E-22",
-    "Liquid Heavy Ends": "0.269150537",
+    "Petroleum Coke": "7.74849E-22",
+    "Residual Fuels": "0.269150537",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.443623038",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S. Gulf Thunder Horse": {
@@ -2776,11 +2776,11 @@
     "Jet Fuel": "0.303943423",
     "Diesel": "0.29573411",
     "Fuel Oil": "2.11829E-13",
-    "Petroleum Coke (reported in kg/d)": "2.47254E-21",
-    "Liquid Heavy Ends": "0.37154353",
+    "Petroleum Coke": "2.47254E-21",
+    "Residual Fuels": "0.37154353",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.362078509",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S. Wyoming Silo": {
@@ -2824,11 +2824,11 @@
     "Jet Fuel": "0.352783198",
     "Diesel": "0.264091493",
     "Fuel Oil": "1.45407E-13",
-    "Petroleum Coke (reported in kg/d)": "1.74769E-21",
-    "Liquid Heavy Ends": "0.282170387",
+    "Petroleum Coke": "1.74769E-21",
+    "Residual Fuels": "0.282170387",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.370629117",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S. California Wilmington": {
@@ -2872,11 +2872,11 @@
     "Jet Fuel": "0.155674912",
     "Diesel": "0.183448209",
     "Fuel Oil": "1.20262E-13",
-    "Petroleum Coke (reported in kg/d)": "1.01168E-21",
-    "Liquid Heavy Ends": "0.896608974",
+    "Petroleum Coke": "1.01168E-21",
+    "Residual Fuels": "0.896608974",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.183942844",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "U.S. Texas Yates": {
@@ -2920,11 +2920,11 @@
     "Jet Fuel": "0.325548044",
     "Diesel": "0.275863049",
     "Fuel Oil": "2.02127E-13",
-    "Petroleum Coke (reported in kg/d)": "2.07986E-21",
-    "Liquid Heavy Ends": "0.308114538",
+    "Petroleum Coke": "2.07986E-21",
+    "Residual Fuels": "0.308114538",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.400751104",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Venezuela Hamaca SCO": {
@@ -2968,11 +2968,11 @@
     "Jet Fuel": "0.311926746",
     "Diesel": "0.305521347",
     "Fuel Oil": "2.07908E-13",
-    "Petroleum Coke (reported in kg/d)": "3.69661E-21",
-    "Liquid Heavy Ends": "0.348269378",
+    "Petroleum Coke": "3.69661E-21",
+    "Residual Fuels": "0.348269378",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.276985819",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0.028094374",
+    "Net Upstream Petcoke": "0.028094374",
     "Asphalt": "0"
   },
   "Venezuela Tia Juana": {
@@ -3016,11 +3016,11 @@
     "Jet Fuel": "0.153357312",
     "Diesel": "0.407339728",
     "Fuel Oil": "3.721E-13",
-    "Petroleum Coke (reported in kg/d)": "2.70948E-21",
-    "Liquid Heavy Ends": "0.842339417",
+    "Petroleum Coke": "2.70948E-21",
+    "Residual Fuels": "0.842339417",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.154837513",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Canada Cold Lake CSS Dilbit": {
@@ -3064,11 +3064,11 @@
     "Jet Fuel": "0.168619563",
     "Diesel": "0.338089601",
     "Fuel Oil": "2.83587E-13",
-    "Petroleum Coke (reported in kg/d)": "3.18145E-21",
-    "Liquid Heavy Ends": "0.604137206",
+    "Petroleum Coke": "3.18145E-21",
+    "Residual Fuels": "0.604137206",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.228815962",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Canada Athabasca SAGD Dilbit": {
@@ -3112,11 +3112,11 @@
     "Jet Fuel": "0.167174621",
     "Diesel": "0.320861309",
     "Fuel Oil": "3.04967E-13",
-    "Petroleum Coke (reported in kg/d)": "3.32462E-21",
-    "Liquid Heavy Ends": "0.573086943",
+    "Petroleum Coke": "3.32462E-21",
+    "Residual Fuels": "0.573086943",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.233495987",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Canada Athabasca DC SCO": {
@@ -3160,11 +3160,11 @@
     "Jet Fuel": "0.438982136",
     "Diesel": "0.483808927",
     "Fuel Oil": "2.46071E-13",
-    "Petroleum Coke (reported in kg/d)": "1.19749E-22",
-    "Liquid Heavy Ends": "0.08067999",
+    "Petroleum Coke": "1.19749E-22",
+    "Residual Fuels": "0.08067999",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.3211227",
-    "Net Upstream Petcoke (reported in tonnes/d)": "6.315914918",
+    "Net Upstream Petcoke": "6.315914918",
     "Asphalt": "0"
   },
   "Canada Athabasca FC-HC SCO": {
@@ -3208,11 +3208,11 @@
     "Jet Fuel": "0.412097283",
     "Diesel": "0.507103417",
     "Fuel Oil": "3.27171E-13",
-    "Petroleum Coke (reported in kg/d)": "6.96218E-23",
-    "Liquid Heavy Ends": "0.082195032",
+    "Petroleum Coke": "6.96218E-23",
+    "Residual Fuels": "0.082195032",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.346125239",
-    "Net Upstream Petcoke (reported in tonnes/d)": "4.329080799",
+    "Net Upstream Petcoke": "4.329080799",
     "Asphalt": "0"
   },
   "Denmark Dansk Blend": {
@@ -3256,11 +3256,11 @@
     "Jet Fuel": "0.266302093",
     "Diesel": "0.283244893",
     "Fuel Oil": "1.9111E-13",
-    "Petroleum Coke (reported in kg/d)": "6.87594E-22",
-    "Liquid Heavy Ends": "0.469367162",
+    "Petroleum Coke": "6.87594E-22",
+    "Residual Fuels": "0.469367162",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.348057809",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Mexico Cantarell": {
@@ -3304,11 +3304,11 @@
     "Jet Fuel": "0.233396182",
     "Diesel": "0.256747465",
     "Fuel Oil": "1.53528E-13",
-    "Petroleum Coke (reported in kg/d)": "3.15823E-21",
-    "Liquid Heavy Ends": "0.684370849",
+    "Petroleum Coke": "3.15823E-21",
+    "Residual Fuels": "0.684370849",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.25235185",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Russia Chayvo": {
@@ -3352,11 +3352,11 @@
     "Jet Fuel": "0.354585416",
     "Diesel": "0.262057542",
     "Fuel Oil": "1.05953E-13",
-    "Petroleum Coke (reported in kg/d)": "6.1671E-22",
-    "Liquid Heavy Ends": "0.312365788",
+    "Petroleum Coke": "6.1671E-22",
+    "Residual Fuels": "0.312365788",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.398302482",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "UK Forties Blend": {
@@ -3400,11 +3400,11 @@
     "Jet Fuel": "0.318726293",
     "Diesel": "0.247147237",
     "Fuel Oil": "1.61011E-13",
-    "Petroleum Coke (reported in kg/d)": "1.43539E-21",
-    "Liquid Heavy Ends": "0.270839868",
+    "Petroleum Coke": "1.43539E-21",
+    "Residual Fuels": "0.270839868",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.407513607",
-    "Net Upstream Petcoke (reported in tonnes/d)": "0",
+    "Net Upstream Petcoke": "0",
     "Asphalt": "0"
   },
   "Venezuela Merey Blend": {
@@ -3448,11 +3448,11 @@
     "Jet Fuel": "0.193742978",
     "Diesel": "0.12662011",
     "Fuel Oil": "-4.05044E-14",
-    "Petroleum Coke (reported in kg/d)": "2.68478E-21",
-    "Liquid Heavy Ends": "0.799493019",
+    "Petroleum Coke": "2.68478E-21",
+    "Residual Fuels": "0.799493019",
     "Liquefied Petroleum Gases (LPG)": "0",
     "Petrochemical Feedstocks (C2)": "0.271371746",
-    "Net Upstream Petcoke (reported in tonnes/d)": "8.856859993",
+    "Net Upstream Petcoke": "8.856859993",
     "Asphalt": "0"
   }
 }
