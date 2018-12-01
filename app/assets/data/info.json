@@ -24,10 +24,10 @@
     "Absolute Emissions Icons": "Venting, Fugitives",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "#N/A",
+    "": "",
     "Field Age": "15",
     "Field Depth": "3937",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.02809866",
     "Total Emissions": "559.1745196",
@@ -35,7 +35,8 @@
     "Per $ Crude Oil - Historic": "55.30046618",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Angola Kuito": {
     "Region": "Sub-Saharan Africa",
@@ -62,10 +63,10 @@
     "Absolute Emissions Icons": "Petcoke, Refinery heat, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "2.246462436",
+    "": "",
     "Field Age": "17",
     "Field Depth": "7122",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.63314218",
     "Total Emissions": "499.8269005",
@@ -73,7 +74,8 @@
     "Per $ Crude Oil - Historic": "45.58522985",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "1.93334",
-    "OPEM Data Quality": "2.75"
+    "OPEM Data Quality": "2.75",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Angola Takula": {
     "Region": "Sub-Saharan Africa",
@@ -100,10 +102,10 @@
     "Absolute Emissions Icons": "Venting",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "2.012241764",
+    "": "",
     "Field Age": "37",
     "Field Depth": "3200",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.92483158",
     "Total Emissions": "497.4205222",
@@ -111,7 +113,8 @@
     "Per $ Crude Oil - Historic": "52.71831752",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "1.93334",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Australia Cossack": {
     "Region": "Asia-Pacific",
@@ -138,18 +141,19 @@
     "Absolute Emissions Icons": "Venting and Fugitives, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Ultra-Light",
-    "": "#N/A",
+    "": "",
     "Field Age": "22",
     "Field Depth": "9719",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "9.91554991",
-    "Total Emissions": "425.2434801",
+    "Total Emissions": "449.4549418",
     "Per $ Crude Oil - Current": "84.63438438",
     "Per $ Crude Oil - Historic": "52.66259284",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Azerbaijan Azeri Light": {
     "Region": "Russia & Eurasia",
@@ -176,18 +180,19 @@
     "Absolute Emissions Icons": "",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "#N/A",
+    "": "",
     "Field Age": "20",
     "Field Depth": "9075",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.75514906",
-    "Total Emissions": "463.1519068",
+    "Total Emissions": "519.5510713",
     "Per $ Crude Oil - Current": "84.38858006",
     "Per $ Crude Oil - Historic": "47.07336122",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Brazil Frade": {
     "Region": "S. America & Caribbean",
@@ -214,10 +219,10 @@
     "Absolute Emissions Icons": "Petcoke, Refinery heat, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Heavy",
-    "": "2.240907925",
+    "": "",
     "Field Age": "9",
     "Field Depth": "11653.54368",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Deep Conversion: FCC & GO-HC (6)",
     "Transport Emissions": "11.63994748",
     "Total Emissions": "564.0203617",
@@ -225,7 +230,8 @@
     "Per $ Crude Oil - Historic": "59.02540111",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.4",
-    "OPEM Data Quality": "2.75"
+    "OPEM Data Quality": "2.75",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Brazil Lula": {
     "Region": "S. America & Caribbean",
@@ -252,10 +258,10 @@
     "Absolute Emissions Icons": "Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Ultra-Deep",
-    "": "2.288578775",
+    "": "",
     "Field Age": "9",
     "Field Depth": "19737",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.00737451",
     "Total Emissions": "577.7403537",
@@ -263,7 +269,8 @@
     "Per $ Crude Oil - Historic": "59.61062081",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.26666",
-    "OPEM Data Quality": "2.5"
+    "OPEM Data Quality": "2.5",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Canada Hibernia": {
     "Region": "North America",
@@ -290,18 +297,19 @@
     "Absolute Emissions Icons": "",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "#N/A",
+    "": "",
     "Field Age": "21",
     "Field Depth": "12139",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.74868192",
-    "Total Emissions": "458.2176433",
+    "Total Emissions": "503.3692826",
     "Per $ Crude Oil - Current": "83.93573825",
     "Per $ Crude Oil - Historic": "47.22930274",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "China Bozhong": {
     "Region": "Asia-Pacific",
@@ -328,10 +336,10 @@
     "Absolute Emissions Icons": "Venting and Fugitives, Petcoke, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Heavy",
-    "": "2.179640567",
+    "": "",
     "Field Age": "23",
     "Field Depth": "10500",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Deep Conversion: FCC & GO-HC (6)",
     "Transport Emissions": "11.90889896",
     "Total Emissions": "539.5216802",
@@ -339,7 +347,8 @@
     "Per $ Crude Oil - Historic": "58.06119277",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.8",
-    "OPEM Data Quality": "2.75"
+    "OPEM Data Quality": "2.75",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "China Nanhai Light": {
     "Region": "Asia-Pacific",
@@ -366,18 +375,19 @@
     "Absolute Emissions Icons": "Flaring, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "1.814803219",
+    "": "",
     "Field Age": "26",
     "Field Depth": "8270.99764",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.48025207",
-    "Total Emissions": "454.4873591",
+    "Total Emissions": "514.3058367",
     "Per $ Crude Oil - Current": "82.84151668",
     "Per $ Crude Oil - Historic": "46.201917",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "1.93334",
-    "OPEM Data Quality": "2.5"
+    "OPEM Data Quality": "2.5",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "China Qinhuangdao": {
     "Region": "Asia-Pacific",
@@ -404,10 +414,10 @@
     "Absolute Emissions Icons": "Petcoke, Refinery heat, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Heavy",
-    "": "2.184402624",
+    "": "",
     "Field Age": "16",
     "Field Depth": "3600",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Deep Conversion: FCC & GO-HC (6)",
     "Transport Emissions": "11.94631928",
     "Total Emissions": "589.9235132",
@@ -415,7 +425,8 @@
     "Per $ Crude Oil - Historic": "58.50546636",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.13334",
-    "OPEM Data Quality": "2.75"
+    "OPEM Data Quality": "2.75",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Colombia Caño Limón": {
     "Region": "S. America & Caribbean",
@@ -442,10 +453,10 @@
     "Absolute Emissions Icons": "Land Use, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "1.955111636",
+    "": "",
     "Field Age": "32",
     "Field Depth": "7600",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.08828577",
     "Total Emissions": "483.8178163",
@@ -453,7 +464,8 @@
     "Per $ Crude Oil - Historic": "51.71091593",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Colombia Cusiana": {
     "Region": "S. America & Caribbean",
@@ -480,10 +492,10 @@
     "Absolute Emissions Icons": "Pumping, Refinery heat, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Ultra-Deep",
-    "": "2.253026556",
+    "": "",
     "Field Age": "24",
     "Field Depth": "15000",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.55228001",
     "Total Emissions": "475.0200985",
@@ -491,7 +503,8 @@
     "Per $ Crude Oil - Historic": "56.56026288",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.2",
-    "OPEM Data Quality": "2"
+    "OPEM Data Quality": "2",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Congo N'Kossa": {
     "Region": "Sub-Saharan Africa",
@@ -521,15 +534,16 @@
     "": "",
     "Field Age": "20",
     "Field Depth": "9284.7772",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.3004623",
-    "Total Emissions": "515.2952614",
+    "Total Emissions": "555.9254951",
     "Per $ Crude Oil - Current": "",
     "Per $ Crude Oil - Historic": "",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "",
-    "OPEM Data Quality": ""
+    "OPEM Data Quality": "",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Ecuador Sacha": {
     "Region": "S. America & Caribbean",
@@ -556,10 +570,10 @@
     "Absolute Emissions Icons": "Flaring, Land Use, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "1.942062247",
+    "": "",
     "Field Age": "49",
     "Field Depth": "9700",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.10847486",
     "Total Emissions": "583.4275545",
@@ -567,7 +581,8 @@
     "Per $ Crude Oil - Historic": "51.6646444",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.13334",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Ghana Jubilee": {
     "Region": "Sub-Saharan Africa",
@@ -597,15 +612,16 @@
     "": "",
     "Field Age": "6",
     "Field Depth": "16584.6462",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.64614063",
-    "Total Emissions": "499.9099908",
+    "Total Emissions": "543.305571",
     "Per $ Crude Oil - Current": "",
     "Per $ Crude Oil - Historic": "",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "",
-    "OPEM Data Quality": ""
+    "OPEM Data Quality": "",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "India Bombay High": {
     "Region": "Asia-Pacific",
@@ -632,18 +648,19 @@
     "Absolute Emissions Icons": "Flaring, Venting and Fugitives, Pumping, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "High Gas",
-    "": "1.969104848",
+    "": "",
     "Field Age": "41",
     "Field Depth": "4624",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.58631763",
-    "Total Emissions": "488.2451534",
+    "Total Emissions": "533.0160112",
     "Per $ Crude Oil - Current": "86.14349583",
     "Per $ Crude Oil - Historic": "49.96794857",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.06666",
-    "OPEM Data Quality": "2"
+    "OPEM Data Quality": "2",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Indonesia Duri": {
     "Region": "Asia-Pacific",
@@ -670,10 +687,10 @@
     "Absolute Emissions Icons": "Land Use, Steam, Petcoke, Refinery heat, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Heavy",
-    "": "2.217865633",
+    "": "",
     "Field Age": "62",
     "Field Depth": "600",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Deep Conversion: FCC & GO-HC (6)",
     "Transport Emissions": "11.64100779",
     "Total Emissions": "720.4317764",
@@ -681,7 +698,8 @@
     "Per $ Crude Oil - Historic": "57.52730508",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.4",
-    "OPEM Data Quality": "2.75"
+    "OPEM Data Quality": "2.75",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Indonesia Minas": {
     "Region": "Asia-Pacific",
@@ -708,18 +726,19 @@
     "Absolute Emissions Icons": "Pumping, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Depleted",
-    "": "1.601777868",
+    "": "",
     "Field Age": "64",
     "Field Depth": "2000",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.87315692",
-    "Total Emissions": "571.2953966",
+    "Total Emissions": "629.9580523",
     "Per $ Crude Oil - Current": "81.58273014",
     "Per $ Crude Oil - Historic": "43.19429044",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.06666",
-    "OPEM Data Quality": "2.5"
+    "OPEM Data Quality": "2.5",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Iran Aboozar": {
     "Region": "Middle East & N. Africa",
@@ -746,10 +765,10 @@
     "Absolute Emissions Icons": "Flaring, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "1.900898265",
+    "": "",
     "Field Age": "40",
     "Field Depth": "2919.9476",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.1981269",
     "Total Emissions": "487.1785494",
@@ -757,7 +776,8 @@
     "Per $ Crude Oil - Historic": "51.0572669",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.2",
-    "OPEM Data Quality": "2.125"
+    "OPEM Data Quality": "2.125",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Iran Marun": {
     "Region": "Middle East & N. Africa",
@@ -784,10 +804,10 @@
     "Absolute Emissions Icons": "Flaring, Venting, Fugitives, Land Use, Pumping",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "2.005827551",
+    "": "",
     "Field Age": "51",
     "Field Depth": "9501",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.93108631",
     "Total Emissions": "645.2295853",
@@ -795,7 +815,8 @@
     "Per $ Crude Oil - Historic": "52.5170226",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.2",
-    "OPEM Data Quality": "2.125"
+    "OPEM Data Quality": "2.125",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Iraq Kirkuk": {
     "Region": "Middle East & N. Africa",
@@ -822,10 +843,10 @@
     "Absolute Emissions Icons": "Flaring, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "#N/A",
+    "": "",
     "Field Age": "84",
     "Field Depth": "2600",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.64948998",
     "Total Emissions": "680.7011394",
@@ -833,7 +854,8 @@
     "Per $ Crude Oil - Historic": "52.91631683",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Iraq Rumaila": {
     "Region": "Middle East & N. Africa",
@@ -860,10 +882,10 @@
     "Absolute Emissions Icons": "Flaring, Venting, Fugitives",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "#N/A",
+    "": "",
     "Field Age": "45",
     "Field Depth": "9022",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.32701583",
     "Total Emissions": "628.8245604",
@@ -871,7 +893,8 @@
     "Per $ Crude Oil - Historic": "50.58171606",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Iraq West Qurna": {
     "Region": "Middle East & N. Africa",
@@ -898,10 +921,10 @@
     "Absolute Emissions Icons": "Flaring, Land Use, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "#N/A",
+    "": "",
     "Field Age": "4",
     "Field Depth": "7223.76",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.32701583",
     "Total Emissions": "627.0805318",
@@ -909,7 +932,8 @@
     "Per $ Crude Oil - Historic": "50.58171606",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Iraq Zubair": {
     "Region": "Middle East & N. Africa",
@@ -936,10 +960,10 @@
     "Absolute Emissions Icons": "Flaring, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Ultra-Deep",
-    "": "#N/A",
+    "": "",
     "Field Age": "68",
     "Field Depth": "11000",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.93801915",
     "Total Emissions": "634.1474389",
@@ -947,7 +971,8 @@
     "Per $ Crude Oil - Historic": "51.63550348",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Kazakhstan Tengiz": {
     "Region": "Russia & Eurasia",
@@ -974,10 +999,10 @@
     "Absolute Emissions Icons": "Refinery heat, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Ultra-Light",
-    "": "2.242595804",
+    "": "",
     "Field Age": "27",
     "Field Depth": "11843",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "9.966562819",
     "Total Emissions": "458.9911492",
@@ -985,7 +1010,8 @@
     "Per $ Crude Oil - Historic": "52.15578525",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.4",
-    "OPEM Data Quality": "2.5"
+    "OPEM Data Quality": "2.5",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Kuwait Burgan": {
     "Region": "Middle East & N. Africa",
@@ -1012,10 +1038,10 @@
     "Absolute Emissions Icons": "Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "1.799734196",
+    "": "",
     "Field Age": "72",
     "Field Depth": "4800",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.39968517",
     "Total Emissions": "491.798999",
@@ -1023,7 +1049,8 @@
     "Per $ Crude Oil - Historic": "49.15010391",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.6",
-    "OPEM Data Quality": "2.125"
+    "OPEM Data Quality": "2.125",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Kuwait Ratawi": {
     "Region": "Middle East & N. Africa",
@@ -1050,10 +1077,10 @@
     "Absolute Emissions Icons": "Flaring, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "1.6104308",
+    "": "",
     "Field Age": "59",
     "Field Depth": "6500",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.32106961",
     "Total Emissions": "559.6238769",
@@ -1061,7 +1088,8 @@
     "Per $ Crude Oil - Historic": "43.6100963",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.53334",
-    "OPEM Data Quality": "2.75"
+    "OPEM Data Quality": "2.75",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Libya Waha": {
     "Region": "Middle East & N. Africa",
@@ -1088,18 +1116,19 @@
     "Absolute Emissions Icons": "Venting and Fugitives, Pumping, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Depleted",
-    "": "1.95682689",
+    "": "",
     "Field Age": "56",
     "Field Depth": "6000",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.72160692",
-    "Total Emissions": "477.5995692",
+    "Total Emissions": "522.7810146",
     "Per $ Crude Oil - Current": "83.95090772",
     "Per $ Crude Oil - Historic": "47.89859756",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "1.93334",
-    "OPEM Data Quality": "1.875"
+    "OPEM Data Quality": "1.875",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Mexico Chuc": {
     "Region": "North America",
@@ -1126,10 +1155,10 @@
     "Absolute Emissions Icons": "Pumping, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Ultra-Deep",
-    "": "2.067162739",
+    "": "",
     "Field Age": "35",
     "Field Depth": "13100",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.75074274",
     "Total Emissions": "517.02294",
@@ -1137,7 +1166,8 @@
     "Per $ Crude Oil - Historic": "52.95180757",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.2",
-    "OPEM Data Quality": "2"
+    "OPEM Data Quality": "2",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Nigeria Agbami": {
     "Region": "Sub-Saharan Africa",
@@ -1164,18 +1194,19 @@
     "Absolute Emissions Icons": "Venting and Fugitives, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Ultra-Light",
-    "": "#N/A",
+    "": "",
     "Field Age": "9",
     "Field Depth": "10300",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "9.957890696",
-    "Total Emissions": "478.5317655",
+    "Total Emissions": "511.5852221",
     "Per $ Crude Oil - Current": "85.01882984",
     "Per $ Crude Oil - Historic": "51.50888864",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Nigeria Bonga": {
     "Region": "Sub-Saharan Africa",
@@ -1202,10 +1233,10 @@
     "Absolute Emissions Icons": "",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "#N/A",
+    "": "",
     "Field Age": "13",
     "Field Depth": "8200",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.20174097",
     "Total Emissions": "541.9663825",
@@ -1213,7 +1244,8 @@
     "Per $ Crude Oil - Historic": "57.46817502",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Nigeria Escravos Beach": {
     "Region": "Sub-Saharan Africa",
@@ -1240,18 +1272,19 @@
     "Absolute Emissions Icons": "Flaring, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "1.605035788",
+    "": "",
     "Field Age": "47",
     "Field Depth": "8175",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.88679116",
-    "Total Emissions": "559.1266717",
+    "Total Emissions": "620.3665637",
     "Per $ Crude Oil - Current": "79.40605851",
     "Per $ Crude Oil - Historic": "42.40743619",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.26668",
-    "OPEM Data Quality": "2.5"
+    "OPEM Data Quality": "2.5",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Nigeria Obagi": {
     "Region": "Sub-Saharan Africa",
@@ -1278,18 +1311,19 @@
     "Absolute Emissions Icons": "Flaring, Land Use, Venting and Fugitives, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "High Gas",
-    "": "#N/A",
+    "": "",
     "Field Age": "51",
     "Field Depth": "2050",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.79576912",
-    "Total Emissions": "572.2002747",
+    "Total Emissions": "619.8876503",
     "Per $ Crude Oil - Current": "88.50201157",
     "Per $ Crude Oil - Historic": "50.81284132",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Nigeria Akpo": {
     "Region": "Sub-Saharan Africa",
@@ -1316,18 +1350,19 @@
     "Absolute Emissions Icons": "",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Ultra-Light Oil",
-    "": "#N/A",
+    "": "",
     "Field Age": "9",
     "Field Depth": "11646.982",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.12110782",
-    "Total Emissions": "475.8517396",
+    "Total Emissions": "492.4398099",
     "Per $ Crude Oil - Current": "89.29185669",
     "Per $ Crude Oil - Historic": "57.97131951",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Norway Draugen": {
     "Region": "Europe",
@@ -1357,7 +1392,7 @@
     "": "",
     "Field Age": "23",
     "Field Depth": "6537.564779",
-    "Net Upstream Petcoke Conversion": "",
+    "Portion Net Upstream Petcoke": "",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.31416143",
     "Total Emissions": "453.2540176",
@@ -1365,7 +1400,8 @@
     "Per $ Crude Oil - Historic": "54.82939326",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "",
-    "OPEM Data Quality": ""
+    "OPEM Data Quality": "",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Norway Ekofisk": {
     "Region": "Europe",
@@ -1392,18 +1428,19 @@
     "Absolute Emissions Icons": "Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "#N/A",
+    "": "",
     "Field Age": "46",
     "Field Depth": "10446.29156",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.50852464",
-    "Total Emissions": "438.7736593",
+    "Total Emissions": "480.5071305",
     "Per $ Crude Oil - Current": "84.09617995",
     "Per $ Crude Oil - Historic": "48.53143532",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Qatar Bul Hanine": {
     "Region": "Middle East & N. Africa",
@@ -1430,10 +1467,10 @@
     "Absolute Emissions Icons": "Flaring, Pumping, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "2.174790458",
+    "": "",
     "Field Age": "45",
     "Field Depth": "7650",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.76384716",
     "Total Emissions": "465.8394522",
@@ -1441,7 +1478,8 @@
     "Per $ Crude Oil - Historic": "48.5776269",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "1.93334",
-    "OPEM Data Quality": "2.125"
+    "OPEM Data Quality": "2.125",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Qatar Dukhan": {
     "Region": "Middle East & N. Africa",
@@ -1468,10 +1506,10 @@
     "Absolute Emissions Icons": "Venting and Fugitives, Pumping, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Depleted",
-    "": "1.851046952",
+    "": "",
     "Field Age": "68",
     "Field Depth": "3000",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.19604095",
     "Total Emissions": "437.0133962",
@@ -1479,7 +1517,8 @@
     "Per $ Crude Oil - Historic": "52.80619966",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.2",
-    "OPEM Data Quality": "2"
+    "OPEM Data Quality": "2",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Russia Romashkinskoye": {
     "Region": "Russia & Eurasia",
@@ -1506,10 +1545,10 @@
     "Absolute Emissions Icons": "Land Use, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Depleted",
-    "": "2.007262857",
+    "": "",
     "Field Age": "70",
     "Field Depth": "5294",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.88041437",
     "Total Emissions": "499.9381255",
@@ -1517,7 +1556,8 @@
     "Per $ Crude Oil - Historic": "52.26939246",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.26668",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Russia Samotlor": {
     "Region": "Russia & Eurasia",
@@ -1544,18 +1584,19 @@
     "Absolute Emissions Icons": "Pumping, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "1.857763071",
+    "": "",
     "Field Age": "49",
     "Field Depth": "6561",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.67330314",
-    "Total Emissions": "506.4989972",
+    "Total Emissions": "541.2136929",
     "Per $ Crude Oil - Current": "83.28914434",
     "Per $ Crude Oil - Historic": "47.42842532",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.13334",
-    "OPEM Data Quality": "2"
+    "OPEM Data Quality": "2",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Saudi Arabia Ghawar": {
     "Region": "Middle East & N. Africa",
@@ -1582,10 +1623,10 @@
     "Absolute Emissions Icons": "",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "2.046034961",
+    "": "",
     "Field Age": "66",
     "Field Depth": "10538.05808",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.73140429",
     "Total Emissions": "467.4529142",
@@ -1593,7 +1634,8 @@
     "Per $ Crude Oil - Historic": "52.51788671",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.13334",
-    "OPEM Data Quality": "2"
+    "OPEM Data Quality": "2",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Saudi Arabia Safaniya": {
     "Region": "Middle East & N. Africa",
@@ -1620,10 +1662,10 @@
     "Absolute Emissions Icons": "",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "1.887083084",
+    "": "",
     "Field Age": "60",
     "Field Depth": "5337.92668",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.13908536",
     "Total Emissions": "456.2297824",
@@ -1631,7 +1673,8 @@
     "Per $ Crude Oil - Historic": "50.67641798",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.33334",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Saudi Arabia Zuluf": {
     "Region": "Middle East & N. Africa",
@@ -1658,10 +1701,10 @@
     "Absolute Emissions Icons": "",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "1.942913898",
+    "": "",
     "Field Age": "44",
     "Field Depth": "5918.110426",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.03815546",
     "Total Emissions": "458.5631826",
@@ -1669,7 +1712,8 @@
     "Per $ Crude Oil - Historic": "51.59704747",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.26666",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "United Arab Emirates Fateh": {
     "Region": "Middle East & N. Africa",
@@ -1696,10 +1740,10 @@
     "Absolute Emissions Icons": "Refinery heat, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Medium",
-    "": "2.057301176",
+    "": "",
     "Field Age": "50",
     "Field Depth": "8300",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.90281493",
     "Total Emissions": "497.5133578",
@@ -1707,7 +1751,8 @@
     "Per $ Crude Oil - Historic": "53.52522872",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.33334",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "United Arab Emirates Murban": {
     "Region": "Middle East & N. Africa",
@@ -1734,10 +1779,10 @@
     "Absolute Emissions Icons": "Refinery heat, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "#N/A",
+    "": "",
     "Field Age": "59",
     "Field Depth": "8000",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.30285635",
     "Total Emissions": "458.9828269",
@@ -1745,7 +1790,8 @@
     "Per $ Crude Oil - Historic": "57.62059511",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S.  Alaska North Slope": {
     "Region": "North America",
@@ -1772,10 +1818,10 @@
     "Absolute Emissions Icons": "Venting and Fugitives, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "High Gas",
-    "": "#N/A",
+    "": "",
     "Field Age": "45",
     "Field Depth": "7700",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.87259995",
     "Total Emissions": "511.4361819",
@@ -1783,7 +1829,8 @@
     "Per $ Crude Oil - Historic": "57.88850905",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S. Bakken Flare": {
     "Region": "North America",
@@ -1810,18 +1857,19 @@
     "Absolute Emissions Icons": "Flaring, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "#N/A",
+    "": "",
     "Field Age": "9",
     "Field Depth": "10533",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.23638045",
-    "Total Emissions": "487.6160713",
+    "Total Emissions": "521.876811",
     "Per $ Crude Oil - Current": "84.69264258",
     "Per $ Crude Oil - Historic": "50.90913532",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S. Bakken No Flare": {
     "Region": "North America",
@@ -1848,18 +1896,19 @@
     "Absolute Emissions Icons": "",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "#N/A",
+    "": "",
     "Field Age": "9",
     "Field Depth": "10533",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.23638045",
-    "Total Emissions": "440.5116593",
+    "Total Emissions": "474.7723991",
     "Per $ Crude Oil - Current": "84.69264258",
     "Per $ Crude Oil - Historic": "50.90913532",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S. Texas Eagle Ford Black Oil Zone": {
     "Region": "North America",
@@ -1886,18 +1935,19 @@
     "Absolute Emissions Icons": "",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "2.092429305",
+    "": "",
     "Field Age": "6",
     "Field Depth": "9978",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.23008602",
-    "Total Emissions": "454.7728475",
+    "Total Emissions": "495.9506378",
     "Per $ Crude Oil - Current": "85.33511611",
     "Per $ Crude Oil - Historic": "51.19144154",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.33334",
-    "OPEM Data Quality": "2.125"
+    "OPEM Data Quality": "2.125",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S. Texas Eagle Ford Volatile Oil Zone": {
     "Region": "North America",
@@ -1924,18 +1974,19 @@
     "Absolute Emissions Icons": "Flaring, Land Use, Venting and Fugitives, Refinery heat, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Condensate",
-    "": "#N/A",
+    "": "",
     "Field Age": "6",
     "Field Depth": "9978",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.02989907",
-    "Total Emissions": "445.404595",
+    "Total Emissions": "483.3400842",
     "Per $ Crude Oil - Current": "83.95374393",
     "Per $ Crude Oil - Historic": "49.83899874",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S.  East Texas Field": {
     "Region": "North America",
@@ -1962,18 +2013,19 @@
     "Absolute Emissions Icons": "Venting and Fugitives, Pumping, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Depleted",
-    "": "1.89554862",
+    "": "",
     "Field Age": "87",
     "Field Depth": "3500",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.64388129",
-    "Total Emissions": "454.1701082",
+    "Total Emissions": "491.713637",
     "Per $ Crude Oil - Current": "84.67837364",
     "Per $ Crude Oil - Historic": "48.62120994",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "1.8",
-    "OPEM Data Quality": "2"
+    "OPEM Data Quality": "2",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S. Gulf Mars": {
     "Region": "North America",
@@ -2000,10 +2052,10 @@
     "Absolute Emissions Icons": "Venting and Fugitives, Pumping, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Ultra-Deep",
-    "": "#N/A",
+    "": "",
     "Field Age": "21",
     "Field Depth": "16000",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.00300663",
     "Total Emissions": "451.0692227",
@@ -2011,7 +2063,8 @@
     "Per $ Crude Oil - Historic": "52.31797923",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S. California Midway Sunset": {
     "Region": "North America",
@@ -2038,10 +2091,10 @@
     "Absolute Emissions Icons": "Steam, Petcoke, Refinery heat, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Depleted",
-    "": "1.938996365",
+    "": "",
     "Field Age": "121",
     "Field Depth": "2698",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Deep Conversion: FCC & GO-HC (6)",
     "Transport Emissions": "12.15059827",
     "Total Emissions": "784.3232755",
@@ -2049,7 +2102,8 @@
     "Per $ Crude Oil - Historic": "55.40538554",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S. Wyoming Salt Creek": {
     "Region": "North America",
@@ -2076,18 +2130,19 @@
     "Absolute Emissions Icons": "Land Use, Pumping, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Depleted",
-    "": "1.857263782",
+    "": "",
     "Field Age": "122",
     "Field Depth": "2883",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.63509828",
-    "Total Emissions": "484.5209187",
+    "Total Emissions": "519.5508207",
     "Per $ Crude Oil - Current": "83.53935517",
     "Per $ Crude Oil - Historic": "47.53189984",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.4",
-    "OPEM Data Quality": "2"
+    "OPEM Data Quality": "2",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S. California South Belridge": {
     "Region": "North America",
@@ -2114,10 +2169,10 @@
     "Absolute Emissions Icons": "Steam, Petcoke, Refinery heat, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Depleted",
-    "": "1.96828082",
+    "": "",
     "Field Age": "105",
     "Field Depth": "2720",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Deep Conversion: FCC & GO-HC (6)",
     "Transport Emissions": "12.11931446",
     "Total Emissions": "699.7861903",
@@ -2125,7 +2180,8 @@
     "Per $ Crude Oil - Historic": "61.47790611",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.33334",
-    "OPEM Data Quality": "2"
+    "OPEM Data Quality": "2",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S. Texas Spraberry": {
     "Region": "North America",
@@ -2152,18 +2208,19 @@
     "Absolute Emissions Icons": "Pumping, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "1.857263782",
+    "": "",
     "Field Age": "69",
     "Field Depth": "7950",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.38364066",
-    "Total Emissions": "421.7603129",
+    "Total Emissions": "460.9094847",
     "Per $ Crude Oil - Current": "83.49071683",
     "Per $ Crude Oil - Historic": "48.78026246",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.13334",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S. Gulf Thunder Horse": {
     "Region": "North America",
@@ -2190,10 +2247,10 @@
     "Absolute Emissions Icons": "",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Ultra-Deep",
-    "": "#N/A",
+    "": "",
     "Field Age": "10",
     "Field Depth": "27000",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.85224819",
     "Total Emissions": "459.3386059",
@@ -2201,7 +2258,8 @@
     "Per $ Crude Oil - Historic": "53.16826465",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S. Wyoming Silo": {
     "Region": "North America",
@@ -2228,18 +2286,19 @@
     "Absolute Emissions Icons": "Land Use, Venting and Fugitives, Pumping, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "1.857263782",
+    "": "",
     "Field Age": "38",
     "Field Depth": "8050",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.63509828",
-    "Total Emissions": "455.3716782",
+    "Total Emissions": "490.4015801",
     "Per $ Crude Oil - Current": "83.53935517",
     "Per $ Crude Oil - Historic": "47.53189984",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.4",
-    "OPEM Data Quality": "2"
+    "OPEM Data Quality": "2",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S. California Wilmington": {
     "Region": "North America",
@@ -2266,10 +2325,10 @@
     "Absolute Emissions Icons": "Pumping, Petcoke, Refinery heat, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Depleted",
-    "": "2.137658829",
+    "": "",
     "Field Age": "85",
     "Field Depth": "2824",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Deep Conversion: FCC & GO-HC (6)",
     "Transport Emissions": "11.78894775",
     "Total Emissions": "593.6606355",
@@ -2277,7 +2336,8 @@
     "Per $ Crude Oil - Historic": "62.77011519",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.13334",
-    "OPEM Data Quality": "2"
+    "OPEM Data Quality": "2",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "U.S. Texas Yates": {
     "Region": "North America",
@@ -2304,10 +2364,10 @@
     "Absolute Emissions Icons": "Land Use, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Depleted",
-    "": "2.335244204",
+    "": "",
     "Field Age": "92",
     "Field Depth": "7122",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.68505385",
     "Total Emissions": "469.2741537",
@@ -2315,7 +2375,8 @@
     "Per $ Crude Oil - Historic": "54.34775919",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.06668",
-    "OPEM Data Quality": "2"
+    "OPEM Data Quality": "2",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Venezuela Hamaca SCO": {
     "Region": "S. America & Caribbean",
@@ -2342,10 +2403,10 @@
     "Absolute Emissions Icons": "Land Use, Upgrading, Petcoke, Refinery heat, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Extra-Heavy",
-    "": "2.195605832",
+    "": "",
     "Field Age": "16",
     "Field Depth": "2200",
-    "Net Upstream Petcoke Conversion": "37.5",
+    "Portion Net Upstream Petcoke": "37.5",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.29343772",
     "Total Emissions": "723.8564714",
@@ -2353,7 +2414,8 @@
     "Per $ Crude Oil - Historic": "56.08250513",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.2",
-    "OPEM Data Quality": "2.625"
+    "OPEM Data Quality": "2.625",
+    "Net Upstream Petcoke Conversion": "31341.78161"
   },
   "Venezuela Tia Juana": {
     "Region": "S. America & Caribbean",
@@ -2380,10 +2442,10 @@
     "Absolute Emissions Icons": "Land Use, Steam, Petcoke, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Extra-Heavy",
-    "": "1.938996365",
+    "": "",
     "Field Age": "85",
     "Field Depth": "2250",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Deep Conversion: FCC & GO-HC (6)",
     "Transport Emissions": "12.15059827",
     "Total Emissions": "708.9458199",
@@ -2391,7 +2453,8 @@
     "Per $ Crude Oil - Historic": "55.40538554",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Canada Cold Lake CSS Dilbit": {
     "Region": "North America",
@@ -2418,10 +2481,10 @@
     "Absolute Emissions Icons": "Land Use, Steam, Petcoke, Refinery heat, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Extra-Heavy",
-    "": "2.062417474",
+    "": "",
     "Field Age": "32",
     "Field Depth": "1312.336",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Deep Conversion: FCC & GO-HC (6)",
     "Transport Emissions": "11.32823443",
     "Total Emissions": "670.7116755",
@@ -2429,7 +2492,8 @@
     "Per $ Crude Oil - Historic": "54.463012",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.6",
-    "OPEM Data Quality": "2.5"
+    "OPEM Data Quality": "2.5",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Canada Athabasca SAGD Dilbit": {
     "Region": "North America",
@@ -2456,10 +2520,10 @@
     "Absolute Emissions Icons": "Land Use, Steam, Petcoke, Refinery heat, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Extra-Heavy",
-    "": "2.123060498",
+    "": "",
     "Field Age": "13",
     "Field Depth": "1312.336",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.51375491",
     "Total Emissions": "597.9326711",
@@ -2467,7 +2531,8 @@
     "Per $ Crude Oil - Historic": "51.35841646",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.6",
-    "OPEM Data Quality": "2.5"
+    "OPEM Data Quality": "2.5",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Canada Athabasca DC SCO": {
     "Region": "North America",
@@ -2494,18 +2559,19 @@
     "Absolute Emissions Icons": "Land Use, Upgrading, Petcoke, Refinery heat, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Extra-Heavy",
-    "": "2.146158195",
+    "": "",
     "Field Age": "49",
     "Field Depth": "213.2546",
-    "Net Upstream Petcoke Conversion": "8430.4",
+    "Portion Net Upstream Petcoke": "8430.4",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "13.13339137",
-    "Total Emissions": "835.0830966",
+    "Total Emissions": "919.709799",
     "Per $ Crude Oil - Current": "97.55350282",
     "Per $ Crude Oil - Historic": "53.05990626",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.4",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "31341.78161"
   },
   "Canada Athabasca FC-HC SCO": {
     "Region": "North America",
@@ -2532,18 +2598,19 @@
     "Absolute Emissions Icons": "Land Use, Upgrading, Petcoke, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Extra-Heavy",
-    "": "1.733487078",
+    "": "",
     "Field Age": "38",
     "Field Depth": "213.2546",
-    "Net Upstream Petcoke Conversion": "5778.4",
+    "Portion Net Upstream Petcoke": "5778.4",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "12.49996318",
-    "Total Emissions": "803.0389528",
+    "Total Emissions": "876.2541378",
     "Per $ Crude Oil - Current": "93.0048406",
     "Per $ Crude Oil - Historic": "50.70868078",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.4",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "31341.78161"
   },
   "Denmark Dansk Blend": {
     "Region": "Europe",
@@ -2570,18 +2637,19 @@
     "Absolute Emissions Icons": "Petcoke, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "1.782849443",
+    "": "",
     "Field Age": "42",
     "Field Depth": "6600",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "11.20093415",
-    "Total Emissions": "451.2253805",
+    "Total Emissions": "490.4690246",
     "Per $ Crude Oil - Current": "82.15048293",
     "Per $ Crude Oil - Historic": "44.32134768",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.2",
-    "OPEM Data Quality": "2.5"
+    "OPEM Data Quality": "2.5",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Mexico Cantarell": {
     "Region": "North America",
@@ -2608,10 +2676,10 @@
     "Absolute Emissions Icons": "",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Depleted",
-    "": "1.638560055",
+    "": "",
     "Field Age": "36",
     "Field Depth": "7544",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "11.56154898",
     "Total Emissions": "467.0303478",
@@ -2619,7 +2687,8 @@
     "Per $ Crude Oil - Historic": "47.54273887",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.2",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Russia Chayvo": {
     "Region": "Russia & Eurasia",
@@ -2646,18 +2715,19 @@
     "Absolute Emissions Icons": "Venting and Fugitives, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Ultra-Deep",
-    "": "1.72155301",
+    "": "",
     "Field Age": "12",
     "Field Depth": "9353.67484",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Hydroskimming Configuration (0)",
     "Transport Emissions": "10.67951824",
-    "Total Emissions": "458.1533919",
+    "Total Emissions": "488.5143721",
     "Per $ Crude Oil - Current": "84.85283653",
     "Per $ Crude Oil - Historic": "48.78001274",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "2.53334",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "UK Forties Blend": {
     "Region": "Europe",
@@ -2684,10 +2754,10 @@
     "Absolute Emissions Icons": "Pumping, ",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Light",
-    "": "#N/A",
+    "": "",
     "Field Age": "42",
     "Field Depth": "7000",
-    "Net Upstream Petcoke Conversion": "0",
+    "Portion Net Upstream Petcoke": "0",
     "Default Refinery": "Medium Conversion: FCC & GO-HC (3)",
     "Transport Emissions": "10.4246624",
     "Total Emissions": "471.2512568",
@@ -2695,7 +2765,8 @@
     "Per $ Crude Oil - Historic": "54.30976649",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "#N/A",
-    "OPEM Data Quality": "#N/A"
+    "OPEM Data Quality": "#N/A",
+    "Net Upstream Petcoke Conversion": "0"
   },
   "Venezuela Merey Blend": {
     "Region": "S. America & Caribbean",
@@ -2722,10 +2793,10 @@
     "Absolute Emissions Icons": "Land Use, Steam, Venting and Fugitives, Pumping, Refinery heat, Refinery hydrogen",
     "Barrels per day (PRELIM)": "100000",
     "Overall Crude Category": "Extra-Heavy",
-    "": "2.236648264",
+    "": "",
     "Field Age": "90.8",
     "Field Depth": "4916.220576",
-    "Net Upstream Petcoke Conversion": "11822.02",
+    "Portion Net Upstream Petcoke": "11822.02",
     "Default Refinery": "Deep Conversion: FCC & GO-HC (6)",
     "Transport Emissions": "15.0687249",
     "Total Emissions": "1106.008357",
@@ -2733,6 +2804,7 @@
     "Per $ Crude Oil - Historic": "61.86917609",
     "OPGEE Data Quality": "",
     "PRELIM Data Quality": "1.8",
-    "OPEM Data Quality": "2.25"
+    "OPEM Data Quality": "2.25",
+    "Net Upstream Petcoke Conversion": "31341.78161"
   }
 }
