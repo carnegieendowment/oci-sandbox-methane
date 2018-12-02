@@ -129,9 +129,9 @@ var ModelParameters = Backbone.View.extend({
     $('.value.solarsteam span').html(solarsteam + '%');
     var petcoke = parseInt(this.cokeSlider.get());
     $('.value.petcoke span').html(petcoke + '%');
-    var lpg = $('#toggle-lpg').is(':checked') ? 'No' : 'Yes';
+    var lpg = $('#toggle-lpg').is(':checked') ? 'Sell' : 'Use';
     $('.value.lpg span').html(lpg);
-    var hydrogen = $('#toggle-hydrogen').is(':checked') ? 'Sell' : 'Use';
+    var hydrogen = $('#toggle-hydrogen').is(':checked') ? 'No' : 'Yes';
     $('.value.hydrogen span').html(hydrogen);
     var gwp = $('#toggle-gwp').is(':checked') ? '20' : '100';
     $('.value.gwp span').html(gwp);
