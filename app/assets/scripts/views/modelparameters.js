@@ -96,9 +96,9 @@ var ModelParameters = Backbone.View.extend({
     if (params.prelim) {
       try {
         // We know the format of the param 'run##'
-        var refinery = params.prelim[3];
-        var lpg = params.prelim[4];
-        var hydrogen = params.prelim[5];
+        var refinery = params.prelim[4];
+        var lpg = params.prelim[5];
+        var hydrogen = params.prelim[3];
         $('#dropdown-refinery').prop('selectedIndex', refinery);
         $('#toggle-lpg').attr('checked', Boolean(lpg));
         $('#toggle-hydrogen').attr('checked', Boolean(hydrogen));
@@ -131,7 +131,7 @@ var ModelParameters = Backbone.View.extend({
     $('.value.petcoke span').html(petcoke + '%');
     var lpg = $('#toggle-lpg').is(':checked') ? 'No' : 'Yes';
     $('.value.lpg span').html(lpg);
-    var hydrogen = $('#toggle-hydrogen').is(':checked') ? 'No' : 'Yes';
+    var hydrogen = $('#toggle-hydrogen').is(':checked') ? 'Sell' : 'Use';
     $('.value.hydrogen span').html(hydrogen);
     var gwp = $('#toggle-gwp').is(':checked') ? '20' : '100';
     $('.value.gwp span').html(gwp);
