@@ -30,7 +30,7 @@ window.Oci = {
   Models: {},
   Collections: {
     opgee: new OpgeeCollection([{ id: 'run0000000' }]),
-    prelim: new PrelimCollection({ id: 'run01010' })
+    prelim: new PrelimCollection({ id: 'run00010' })
   },
   Views: {},
   Routers: {},
