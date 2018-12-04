@@ -70,8 +70,8 @@ var ModelParameters = Backbone.View.extend({
       try {
         // We know the format of the param 'run###'
         var venting = params.opgee[6];
-        var water = params.opgee[8];
-        var flaring = params.opgee[7];
+        var water = params.opgee[7];
+        var flaring = params.opgee[8];
         var solarsteam = params.opgee[9];
         var gwp = params.opgee[4];
         var fugitives = params.opgee[5];
