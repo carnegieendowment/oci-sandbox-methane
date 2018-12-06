@@ -46,14 +46,14 @@ var utils = {
     for (var key in oils) {
       var opgeeExtent = null;
       var transport = +oils[key]['Transport Emissions'];  // Transport total
-      for (var t = 0; t < 2; t++) {
+      for (var c = 0; c < 2; c++) {
         for (var g = 0; g < 2; g++) {
           for (var p = 0; p < data.metadata.fugitives.split(',').length; p++) {
             for (var v = 0; v < data.metadata.venting.split(',').length; v++) {
               for (var j = 0; j < data.metadata.water.split(',').length; j++) {
                 for (var k = 0; k < data.metadata.flare.split(',').length; k++) {
                   for (var s = 0; s < data.metadata.solarsteam.split(',').length; s++) {
-                    var opgee = data.opgee['run' + t + g + p + v + j + k + s][key];
+                    var opgee = data.opgee['run' + c + g + p + v + j + k + s][key];
                     var extraction = +opgee['Net lifecycle emissions'];
 
                     if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
