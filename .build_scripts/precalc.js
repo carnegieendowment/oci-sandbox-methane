@@ -18,7 +18,7 @@ var wi = utils.trimMetadataArray(metadata.water.split(','));
 var fi = utils.trimMetadataArray(metadata.flare.split(','));
 var pi = utils.trimMetadataArray(metadata.fugitives.split(','));
 var si = utils.trimMetadataArray(metadata.solarsteam.split(','));
-var ti = [1, 0];
+var ci = [1, 0];
 var yi = [1, 0];
 var gi = [1, 0];
 var zi = [1, 0];
@@ -26,15 +26,15 @@ var ai = [1, 0];
 var ri = utils.trimMetadataArray(metadata.refinery.split(','));
 var li = [1, 0];
 
-ti.forEach(function (_, t) {
+ci.forEach(function (_, c) {
   gi.forEach(function (_, g) {
     pi.forEach(function (_, p) {
       vi.forEach(function (_, v) {
         wi.forEach(function (_, w) {
           fi.forEach(function (_, f) {
             si.forEach(function (_,s) {
-              var temp = JSON.parse(fs.readFileSync('app/assets/data/opgee/opgee_run' + t + g + p + v + w + f + s + '.json'));
-              Oci.data.opgee['run' + t + g + p + v + w + f + s] = temp;
+              var temp = JSON.parse(fs.readFileSync('app/assets/data/opgee/opgee_run' + c + g + p + v + w + f + s + '.json'));
+              Oci.data.opgee['run' + c + g + p + v + w + f + s] = temp;
             });
           });
         });
