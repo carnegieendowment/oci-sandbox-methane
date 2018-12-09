@@ -24,7 +24,7 @@ var MapView = BaseView.extend({
     'change #year-select': 'handleYearChange',
     'click .world-zoom': 'worldZoom',
     'click .zoom-field': 'handleZoomToField',
-    'click .toggle-methane': 'handleToggleLayer'
+    'click .toggle-methane': 'handleMethaneLayer'
   },
 
   initialize: function () {
@@ -42,7 +42,8 @@ var MapView = BaseView.extend({
     ];
 
     this.shareParams = [
-      { name: 'yearSelect', input: 'year-select' }
+      { name: 'yearSelect', input: 'year-select' },
+      { name: 'methane', input: 'methane' }
     ];
 
     this._windowSizing();
@@ -68,8 +69,8 @@ var MapView = BaseView.extend({
       '2017': L.mapbox.tileLayer('carnegiecomms.0de7b5ba'),
       'off': null
     };
-    this.toggleLayers = {
-      'methane-2018': L.mapbox.tileLayer('carnegiecomms.c1247a8f')
+    this.methaneLayers = {
+      'methane': L.mapbox.tileLayer('carnegiecomms.c1247a8f')
     };
     var map = L.mapbox.map(
       'map',
@@ -205,6 +206,7 @@ var MapView = BaseView.extend({
 
     this._parseURLAndSetState();
     this.handleYearChange();
+    this.handleMethaneLayer();
     this.hasShareLinkBeenParsed = true;
   },
 
@@ -365,15 +367,27 @@ var MapView = BaseView.extend({
 
     var year = $('[name=year-select]:checked').val();
     var layer = this.flaringLayers[year];
-    if (layer) { this.map.addLayer(layer); }
+    if (layer) {
+      this.map.addLayer(layer);
+      $('#bubble-legend').show();
+    } else {
+      $('#bubble-legend').hide();
+    }
 
     this._updateCopyLink();
   },
 
-  handleToggleLayer: function () {
-    var isActiveMethane2018Layer = $('[name=methane-2018]:checked').val();
-    var layer = this.toggleLayers['methane-2018'];
-    isActiveMethane2018Layer ? this.map.addLayer(layer) : this.map.removeLayer(layer);
+  handleMethaneLayer: function () {
+    var isActiveMethane2018Layer = $('[name=methane]:checked').val();
+    var layer = this.methaneLayers['methane'];
+    if (isActiveMethane2018Layer) {
+      this.map.addLayer(layer);
+      $('#methane-legend').show();
+    } else {
+      this.map.removeLayer(layer);
+      $('#methane-legend').hide();
+    }
+    this._updateCopyLink();
   },
 
   makeBakkenTooltip: function (d) {
