@@ -90,12 +90,40 @@
 
 #bubble-legend {
   position: absolute;
-  bottom: 1em;
+  bottom: 4.5em;
   z-index: 2;
   background: rgba(0, 0, 0, .6);
   width: 175px;
   padding: 1em 0 .5em;
   border-radius: 0 $global-radius $global-radius 0;
+}
+
+#methane-legend {
+  position: absolute;
+  bottom: 0.5em;
+  z-index: 2;
+  background: rgba(0, 0, 0, .6);
+  width: 300px;
+  max-width: 300px;
+  border-radius: 0 $global-radius $global-radius 0;
+  p {
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0.3em;
+  }
+}
+
+#methane-legend label,
+#methane-legend span {
+  float:left;
+  display: block;
+  height:15px;
+  width:50px;
+  text-align:center;
+  font-size:9px;
+  color:#ffffff;
+  font-weight: 500;
 }
 
 .map-filter {
@@ -133,8 +161,22 @@
   }
 }
 
+.map-toogle {
+  top: 15.5em;
+  width: 150px;
+  padding: .3em .8em;
+  &:hover {
+    .map-tooltip {
+      visibility: visible;
+    }
+  }
+  @media screen and (max-width: 670px) {
+    top: 4.5em;
+  }
+}
+
 .map-instructions {
-  top: 13.5em;
+  top: 17.8em;
   padding: .3em .8em;
   &:hover {
     .map-tooltip {
@@ -244,11 +286,11 @@
       &.icon-refinery:before { @extend .icon-factory; }
       &.icon-petcoke:before { @extend .icon-element-petcoke; }
       &.icon-asphalt:before { @extend .icon-element-petcoke; }
-      &.icon-lpg:before { 
-        content: " "; 
-        background-image: url("../images/layout/icon-water.svg"); 
+      &.icon-lpg:before {
+        content: " ";
+        background-image: url("../images/layout/icon-water.svg");
         background-size: 40px 40px;
-        display: block; 
+        display: block;
         background-repeat: no-repeat;
       }
       &:before {
@@ -307,10 +349,10 @@
   .icon-asphalt{ @extend .icon-element-petcoke; }
   .icon-lpg {
     .container-filter_title:before {
-      content: " "; 
-      background-image: url("../images/layout/icon-water.svg"); 
+      content: " ";
+      background-image: url("../images/layout/icon-water.svg");
       background-size: 20px 20px;
-      display: inline-block; 
+      display: inline-block;
       background-repeat: no-repeat;
       width: 15px;
       height: 15px;
