@@ -627,6 +627,7 @@ var utils = {
   // Get the current OPGEE model based on model parameters
   getOPGEEModel: function (methane, gwp, fugitives, venting, water, flaring, solarsteam) {
     var metadata = Oci.data.metadata;
+
     var ci = Number(methane);
     var gi = Number(gwp);
     var pi = this.indexInArray(this.trimMetadataArray(metadata.fugitives.split(',')), fugitives);
@@ -639,10 +640,11 @@ var utils = {
     var model = 'run';
     // If we don't have a match, return default
     if (pi === -1 || vi === -1 || wi === -1 || fi === -1 || si === -1) {
-      model += (ci + gi + '00000');
+      model += [ci, gi, '00000'].join('');
     } else {
       model += [ci, gi, pi, vi, wi, fi, si].join('');
     }
+    console.log(model);
     return model;
   },
 
@@ -658,9 +660,9 @@ var utils = {
     var model = 'run';
     // If we don't have a match, return default
     if (ri === -1) {
-      model += (zi + ai + '0' + li + yi);
+      model += [zi, ai, '0', li, yi].join('');
     } else {
-      model = model + zi + ai + ri + li + yi;
+      model += [zi, ai, ri, li, yi].join('');
     }
     return model;
   },
