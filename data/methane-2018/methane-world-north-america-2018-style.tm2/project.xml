@@ -4,18 +4,18 @@
 
 <Parameters>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">-70.4004,26.3919,4</Parameter>
+  <Parameter name="center">-49.9219,9.5357,3</Parameter>
   <Parameter name="format">png8:m=h</Parameter>
   <Parameter name="maxzoom">7</Parameter>
   <Parameter name="minzoom">0</Parameter>
-  <Parameter name="name"><![CDATA[methane-2018-style]]></Parameter>
-  <Parameter name="source"><![CDATA[mapbox:///carnegiecomms.c7e3e1e4,carnegiecomms.6415dbd3]]></Parameter>
+  <Parameter name="name"><![CDATA[methane-world-north-america-2018]]></Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///carnegiecomms.f89c60b3]]></Parameter>
 </Parameters>
 
 
 <Style name="_image" filter-mode="first">
   <Rule>
-    <RasterSymbolizer opacity="1" comp-op="src" mesh-size="2" epsilon="50" />
+    <RasterSymbolizer opacity="1" />
   </Rule>
 </Style>
 <Layer name="_image"

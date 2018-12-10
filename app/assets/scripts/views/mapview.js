@@ -69,7 +69,7 @@ var MapView = BaseView.extend({
       'off': null
     };
     this.toggleLayers = {
-      'methane-2018': L.mapbox.tileLayer('carnegiecomms.c1247a8f')
+      'methane-2018': L.mapbox.tileLayer('carnegiecomms.36832a60') //carnegiecomms.c1247a8f
     };
     var map = L.mapbox.map(
       'map',
