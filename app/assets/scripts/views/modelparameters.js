@@ -131,7 +131,7 @@ var ModelParameters = Backbone.View.extend({
     $('.value.petcoke span').html(petcoke + '%');
     var lpg = $('#toggle-lpg').is(':checked') ? 'Sell' : 'Use';
     $('.value.lpg span').html(lpg);
-    var hydrogen = $('#toggle-hydrogen').is(':checked') ? 'No' : 'Yes';
+    var hydrogen = $('#toggle-hydrogen').is(':checked') ? 'Yes' : 'No';
     $('.value.hydrogen span').html(hydrogen);
     var gwp = $('#toggle-gwp').is(':checked') ? '20' : '100';
     $('.value.gwp span').html(gwp);
