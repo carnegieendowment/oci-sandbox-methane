@@ -135,7 +135,7 @@ var ModelParameters = Backbone.View.extend({
     $('.value.hydrogen span').html(hydrogen);
     var gwp = $('#toggle-gwp').is(':checked') ? '20' : '100';
     $('.value.gwp span').html(gwp);
-    var methane = $('#toggle-methane').is(':checked') ? 'No' : 'Yes';
+    var methane = $('#toggle-methane').is(':checked') ? 'Yes' : 'No';
     $('.value.methane span').html(methane);
     var refinery = $('#dropdown-refinery').val();
     switch (refinery) {
