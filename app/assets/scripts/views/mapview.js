@@ -70,7 +70,8 @@ var MapView = BaseView.extend({
       'off': null
     };
     this.methaneLayers = {
-      'methane': L.mapbox.tileLayer('carnegiecomms.36832a60') //carnegiecomms.c1247a8f
+      'methane': L.mapbox.tileLayer('carnegiecomms.36832a60')
+       //carnegiecomms.c1247a8f
     };
     var map = L.mapbox.map(
       'map',
