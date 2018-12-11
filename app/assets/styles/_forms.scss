@@ -319,10 +319,10 @@ input[type=radio] {
 }
 .switch.hydrogen-override {
   .switch-ui:after {
-    content: "No";
+    content: "Yes";
     padding-right: 10px;
   }
-  input:checked ~ .switch-ui:after { content: "Yes"; }
+  input:checked ~ .switch-ui:after { content: "No"; }
 }
 .switch input:checked ~ .switch-ui {
   background: tint($base-color, 20%);
@@ -334,7 +334,7 @@ input[type=radio] {
   @extend .antialiased;
   text-align: left;
   color: #fff;
-  content: "No";
+  content: "Yes";
 }
 .switch.methane-override {
   .switch-ui:after {
