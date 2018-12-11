@@ -319,10 +319,10 @@ input[type=radio] {
 }
 .switch.hydrogen-override {
   .switch-ui:after {
-    content: "Yes";
+    content: "No";
     padding-right: 10px;
   }
-  input:checked ~ .switch-ui:after { content: "No"; }
+  input:checked ~ .switch-ui:after { content: "Yes"; }
 }
 .switch input:checked ~ .switch-ui {
   background: tint($base-color, 20%);
@@ -334,14 +334,14 @@ input[type=radio] {
   @extend .antialiased;
   text-align: left;
   color: #fff;
-  content: "Yes";
+  content: "No";
 }
 .switch.methane-override {
   .switch-ui:after {
-    content: "Yes";
+    content: "No";
     padding-right: 10px;
   }
-  input:checked ~ .switch-ui:after { content: "No"; }
+  input:checked ~ .switch-ui:after { content: "Yes"; }
 }
 .switch input:checked ~ .switch-ui {
   background: tint($base-color, 20%);
@@ -353,7 +353,7 @@ input[type=radio] {
   @extend .antialiased;
   text-align: left;
   color: #fff;
-  content: "Yes";
+  content: "No";
 }
 
 // SLIDERS noUiSlider.js
