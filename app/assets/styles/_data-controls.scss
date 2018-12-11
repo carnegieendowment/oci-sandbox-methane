@@ -90,7 +90,7 @@
 
 #bubble-legend {
   position: absolute;
-  bottom: 3em;
+  bottom: 4.5em;
   z-index: 2;
   background: rgba(0, 0, 0, .6);
   width: 175px;
@@ -106,12 +106,18 @@
   width: 300px;
   max-width: 300px;
   border-radius: 0 $global-radius $global-radius 0;
+  p {
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0.3em;
+  }
 }
 
 #methane-legend label,
 #methane-legend span {
   float:left;
-  display: block; 
+  display: block;
   height:15px;
   width:50px;
   text-align:center;
@@ -280,11 +286,11 @@
       &.icon-refinery:before { @extend .icon-factory; }
       &.icon-petcoke:before { @extend .icon-element-petcoke; }
       &.icon-asphalt:before { @extend .icon-element-petcoke; }
-      &.icon-lpg:before { 
-        content: " "; 
-        background-image: url("../images/layout/icon-water.svg"); 
+      &.icon-lpg:before {
+        content: " ";
+        background-image: url("../images/layout/icon-water.svg");
         background-size: 40px 40px;
-        display: block; 
+        display: block;
         background-repeat: no-repeat;
       }
       &:before {
@@ -343,10 +349,10 @@
   .icon-asphalt{ @extend .icon-element-petcoke; }
   .icon-lpg {
     .container-filter_title:before {
-      content: " "; 
-      background-image: url("../images/layout/icon-water.svg"); 
+      content: " ";
+      background-image: url("../images/layout/icon-water.svg");
       background-size: 20px 20px;
-      display: inline-block; 
+      display: inline-block;
       background-repeat: no-repeat;
       width: 15px;
       height: 15px;
@@ -451,7 +457,6 @@
 .depleted-color { background-color: $ot-depleted;}
 .condensate-color { background-color: $ot-condensate;}
 .high-gas-color { background-color: $ot-high-gas;}
-.wet-gas-color { background-color: $ot-wet-gas;}
 
 .toggle, .toggle:visited {
   margin-bottom: 1em;

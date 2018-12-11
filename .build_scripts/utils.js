@@ -46,16 +46,20 @@ var utils = {
     for (var key in oils) {
       var opgeeExtent = null;
       var transport = +oils[key]['Transport Emissions'];  // Transport total
-      for (var g = 0; g < 2; g++) {
-        for (var p = 0; p < data.metadata.fugitives.split(',').length; p++) {
-          for (var v = 0; v < data.metadata.venting.split(',').length; v++) {
-            for (var j = 0; j < data.metadata.water.split(',').length; j++) {
-              for (var k = 0; k < data.metadata.flare.split(',').length; k++) {
-                var opgee = data.opgee['run' + g + p + v + j + k][key];
-                var extraction = +opgee['Net lifecycle emissions'];
+      for (var c = 0; c < 2; c++) {
+        for (var g = 0; g < 2; g++) {
+          for (var p = 0; p < data.metadata.fugitives.split(',').length; p++) {
+            for (var v = 0; v < data.metadata.venting.split(',').length; v++) {
+              for (var j = 0; j < data.metadata.water.split(',').length; j++) {
+                for (var k = 0; k < data.metadata.flare.split(',').length; k++) {
+                  for (var s = 0; s < data.metadata.solarsteam.split(',').length; s++) {
+                    var opgee = data.opgee['run' + c + g + p + v + j + k + s][key];
+                    var extraction = +opgee['Net lifecycle emissions'];
 
-                if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
-                  opgeeExtent = extraction;
+                    if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
+                      opgeeExtent = extraction;
+                    }
+                  }
                 }
               }
             }
@@ -63,46 +67,48 @@ var utils = {
         }
       }
       for (var z = 0; z < 2; z++) {
-        for (var a=0; a < 2; a++) {
+        for (var a = 0; a < 2; a++) {
           for (var l = 0; l < data.metadata.refinery.split(',').length; l++) {
             // this for loop is for LPG runs
             for (var m = 0; m < 2; m++) {
-              var prelim = data.prelim['run' + z + a + l + m][key];
-              // we might not have a prelim run for this oil (certain oils don't
-              // run through some refineries)
-              if (!prelim) break;
+              for (var y = 0; y < 2; y++) {
+                var prelim = data.prelim['run' + z + a + l + m + y][key];
+                // we might not have a prelim run for this oil (certain oils don't
+                // run through some refineries)
+                if (!prelim) break;
 
-            [0, 0.5, 1].forEach(function (showCoke) {
-              var refining = +utils.getRefiningTotal(prelim);
-              var combustion = +utils.getCombustionTotal(prelim, showCoke, m);
+                [0, 0.5, 1].forEach(function (showCoke) {
+                  var refining = +utils.getRefiningTotal(prelim);
+                  var combustion = +utils.getCombustionTotal(prelim, showCoke, m);
 
-              // Sum it up! (conditionally based on whether component is selected)
-              var total;
-              components.upstream = opgeeExtent;
-              components.midstream = refining;
-              components.downstream = combustion + transport;
-              if (component) {
-                total = components[component];
-              } else {
-                total = _.reduce(components, function (a, b) { return a + b; }, 0);
+                  // Sum it up! (conditionally based on whether component is selected)
+                  var total;
+                  components.upstream = opgeeExtent;
+                  components.midstream = refining;
+                  components.downstream = combustion + transport;
+                  if (component) {
+                    total = components[component];
+                  } else {
+                    total = _.reduce(components, function (a, b) { return a + b; }, 0);
+                  }
+
+                  // Handle ratio
+                  total = utils.getValueForRatio(total, ratio, prelim, showCoke, data.info[key], m);
+
+                  // Check which is bigger (or smaller)
+                  if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
+                    opgeeExtent = extraction;
+                  }
+                  if (!extent || (total * minMaxMultiplier > extent * minMaxMultiplier)) {
+                    extent = total;
+                  }
+                });
               }
-
-              // Handle ratio
-              total = utils.getValueForRatio(total, ratio, prelim, showCoke, data.info[key], m);
-
-              // Check which is bigger (or smaller)
-              if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
-                opgeeExtent = extraction;
-              }
-              if (!extent || (total * minMaxMultiplier > extent * minMaxMultiplier)) {
-                extent = total;
-              }
-            });
+            }
           }
         }
       }
     }
-  }
 
     // store for later
     if (!Oci.data.globalExtents[ratio]) {

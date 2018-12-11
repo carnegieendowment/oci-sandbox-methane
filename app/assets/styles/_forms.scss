@@ -279,18 +279,24 @@ input[type=radio] {
   width: 100%;
   text-align: right;
 }
-.switch.petro-override {
+.switch.lpg-override {
   .switch-ui:after {
-    content: "Yes";
+    content: "Use";
     padding-right: 10px;
   }
-  input:checked ~ .switch-ui:after { content: "No"; }
+  input:checked ~ .switch-ui:after { content: "Sell"; }
+}
+.switch input:checked ~ .switch-ui {
+  background: tint($base-color, 20%);
+}
+.switch input:checked ~ .switch-ui:before {
+  left: calc(100% - 24px);
 }
 .switch input:checked ~ .switch-ui:after {
   @extend .antialiased;
   text-align: left;
   color: #fff;
-  content: "Yes";
+  content: "On";
 }
 .switch.gwp-override {
   .switch-ui:after {
@@ -313,10 +319,10 @@ input[type=radio] {
 }
 .switch.hydrogen-override {
   .switch-ui:after {
-    content: "Yes";
+    content: "No";
     padding-right: 10px;
   }
-  input:checked ~ .switch-ui:after { content: "No"; }
+  input:checked ~ .switch-ui:after { content: "Yes"; }
 }
 .switch input:checked ~ .switch-ui {
   background: tint($base-color, 20%);
@@ -328,7 +334,26 @@ input[type=radio] {
   @extend .antialiased;
   text-align: left;
   color: #fff;
-  content: "Yes";
+  content: "No";
+}
+.switch.methane-override {
+  .switch-ui:after {
+    content: "No";
+    padding-right: 10px;
+  }
+  input:checked ~ .switch-ui:after { content: "Yes"; }
+}
+.switch input:checked ~ .switch-ui {
+  background: tint($base-color, 20%);
+}
+.switch input:checked ~ .switch-ui:before {
+  left: calc(100% - 24px);
+}
+.switch input:checked ~ .switch-ui:after {
+  @extend .antialiased;
+  text-align: left;
+  color: #fff;
+  content: "No";
 }
 
 // SLIDERS noUiSlider.js

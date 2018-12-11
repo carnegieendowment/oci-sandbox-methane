@@ -17,34 +17,43 @@ test('All possible runs should be readable', function (t) {
   // Load all data based on metadata
   var metadata = JSON.parse(fs.readFileSync('../app/assets/data/metadata.json'));
   var vi = metadata.venting.split(',');
+  var ji = metadata.methane.split(',');
   var gi = metadata.gwp.split(',');
+  var pi = metadata.fugitives.split(',');
+  var si = metadata.solarsteam.split(',');
   var wi = metadata.water.split(',');
   var fi = metadata.flare.split(',');
-  var pi = metadata.fugitives.split(',');
   var ri = metadata.refinery.split(',');
-  var ai = [1,0];
-  var zi = [1,0];
   var li = [1, 0];
-
-  gi.forEach(function (_, g) {
-    vi.forEach(function (_, v) {
-      pi.forEach(function (_,p) {
-        wi.forEach(function (_, w) {
-          fi.forEach(function (_, f) {
-            t.notThrows(function () { JSON.parse(fs.readFileSync('../app/assets/data/opgee/opgee_run' + g + p + v + w + f + '.json')); });
+  var yi = [1, 0];
+  var ai = [1, 0];
+  var zi = [1, 0];
+  
+  ji.forEach(function (_, j) {
+    gi.forEach(function (_, g) {
+      pi.forEach(function (_, p) {
+        vi.forEach(function (_, v) {
+          wi.forEach(function (_, w) {
+            fi.forEach(function (_, f) {
+              si.forEach(function (_, s) {
+                t.notThrows(function () { JSON.parse(fs.readFileSync('../app/assets/data/opgee/opgee_run' + j + g + p + v + w + f + s + '.json')); });
+              });
+            });
           });
         });
       });
     });
   });
-
-  zi.forEach(function (_,z) {
-      ai.forEach(function (_, a) {
-        ri.forEach(function (_, r) {
-         li.forEach(function (_, l) {
-            t.notThrows(function () { JSON.parse(fs.readFileSync('../app/assets/data/prelim/prelim_run' + z + a + r + l + '.json')); });
+  
+  zi.forEach(function (_, z) {
+    ai.forEach(function (_, a) {
+      ri.forEach(function (_, r) {
+        li.forEach(function (_, l) {
+          yi.forEach(function (_, y) {
+            t.notThrows(function () { JSON.parse(fs.readFileSync('../app/assets/data/prelim/prelim_run' + z + a + r + l + y + '.json')); });
           });
         });
       });
     });
   });
+});

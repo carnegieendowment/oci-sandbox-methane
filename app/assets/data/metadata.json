@@ -1,8 +1,10 @@
 {
-  "venting": "0, 0.15, 0.20, 0.25",
-  "water": "1,0.5,0.75,1.25,1.5",
-  "flare": "1,0.1,0.85, 1.25, 1.5, 2",
+  "venting": "1, .75, 1.25",
+  "water": "1, .75",
+  "flare": "1, .5, 1.5",
   "refinery": "0 = Default, 1 = Hydroskimming, 2 = Medium Conversion, 3 = Deep Conversion (Coking), 4 = Deep Conversion (Hydrotreating)",
   "gwp": "100, 20",
-  "fugitives": "0, 1, 2, 3"
+  "fugitives": "1, .75, 1.25",
+  "methane": "0, 1",
+  "solarsteam": "0, .45"
 }

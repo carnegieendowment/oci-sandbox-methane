@@ -51,24 +51,28 @@ var utils = {
     for (var key in oils) {
       var opgeeExtent = null;
       var transport = +oils[key]['Transport Emissions'];  // Transport total
-      for (var g = 0; g < 2; g++) {
-        for (var p = 0; p < data.metadata.fugitives.split(',').length; p++) {
-          for (var v = 0; v < data.metadata.venting.split(',').length; v++) {
-            for (var j = 0; j < data.metadata.water.split(',').length; j++) {
-              for (var k = 0; k < data.metadata.flare.split(',').length; k++) {
-                // if we don't have the necessary data, load it
-                var opgeeRun = 'run' + g + p + v + j + k;
-                if (!Oci.Collections.opgee.get(opgeeRun)) {
-                  var opgeeModel = new OpgeeModel({ id: opgeeRun });
-                  opgeeModel.fetch({ async: false, success: function (data) {
-                    Oci.Collections.opgee.add(data);
-                  }});
-                }
-                var opgee = Oci.Collections.opgee.get(opgeeRun).toJSON()[key];
-                var extraction = +opgee['Net lifecycle emissions'];
+      for (var c = 0; c < 2; c++) {
+        for (var g = 0; g < 2; g++) {
+          for (var p = 0; p < data.metadata.fugitives.split(',').length; p++) {
+            for (var v = 0; v < data.metadata.venting.split(',').length; v++) {
+              for (var j = 0; j < data.metadata.water.split(',').length; j++) {
+                for (var k = 0; k < data.metadata.flare.split(',').length; k++) {
+                  for (var s = 0; s < data.metadata.solarsteam.split(',').length; s++) {
+                    // if we don't have the necessary data, load it
+                    var opgeeRun = 'run' + c + g + p + v + j + k + s;
+                    if (!Oci.Collections.opgee.get(opgeeRun)) {
+                      var opgeeModel = new OpgeeModel({ id: opgeeRun });
+                      opgeeModel.fetch({ async: false, success: function (data) {
+                        Oci.Collections.opgee.add(data);
+                      }});
+                    }
+                    var opgee = Oci.Collections.opgee.get(opgeeRun).toJSON()[key];
+                    var extraction = +opgee['Net lifecycle emissions'];
 
-                if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
-                  opgeeExtent = extraction;
+                    if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
+                      opgeeExtent = extraction;
+                    }
+                  }
                 }
               }
             }
@@ -80,47 +84,49 @@ var utils = {
           for (var l = 0; l < data.metadata.refinery.split(',').length; l++) {
             // this for loop is for LPG runs
             for (var m = 0; m < 2; m++) {
-              // if we don't have the necessary data, load it
-              var prelimRun = 'run' + z + a + l + m;
+              for (var y = 0; y < 2; y++) {
+                // if we don't have the necessary data, load it
+                var prelimRun = 'run' + z + a + l + m + y;
 
-              if (!Oci.Collections.prelim.get(prelimRun)) {
-                var prelimModel = new PrelimModel({ id: prelimRun });
-                prelimModel.fetch({ async: false, success: function (data) {
-                  Oci.Collections.prelim.add(data);
-                }});
+                if (!Oci.Collections.prelim.get(prelimRun)) {
+                  var prelimModel = new PrelimModel({ id: prelimRun });
+                  prelimModel.fetch({ async: false, success: function (data) {
+                    Oci.Collections.prelim.add(data);
+                  }});
+                }
+
+                var prelim = Oci.Collections.prelim.get(prelimRun).toJSON()[key];
+                // we might not have a prelim run for this oil (certain oils don't
+                // run through some refineries)
+                if (!prelim) break;
+
+                [0, 0.5, 1].forEach(function (showCoke) {
+                  var refining = +utils.getRefiningTotal(prelim);
+                  var combustion = +utils.getCombustionTotal(prelim, showCoke, m);
+
+                  // Sum it up! (conditionally based on whether component is selected)
+                  var total;
+                  components.upstream = opgeeExtent;
+                  components.midstream = refining;
+                  components.downstream = combustion + transport;
+                  if (component) {
+                    total = components[component];
+                  } else {
+                    total = _.reduce(components, function (a, b) { return a + b; }, 0);
+                  }
+
+                  // Handle ratio
+                  total = utils.getValueForRatio(total, ratio, prelim, showCoke, data.info[key], m);
+
+                  // Check which is bigger (or smaller)
+                  if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
+                    opgeeExtent = extraction;
+                  }
+                  if (!extent || (total * minMaxMultiplier > extent * minMaxMultiplier)) {
+                    extent = total;
+                  }
+                });
               }
-
-              var prelim = Oci.Collections.prelim.get(prelimRun).toJSON()[key];
-              // we might not have a prelim run for this oil (certain oils don't
-              // run through some refineries)
-              if (!prelim) break;
-
-              [0, 0.5, 1].forEach(function (showCoke) {
-                var refining = +utils.getRefiningTotal(prelim);
-                var combustion = +utils.getCombustionTotal(prelim, showCoke, m);
-
-                // Sum it up! (conditionally based on whether component is selected)
-                var total;
-                components.upstream = opgeeExtent;
-                components.midstream = refining;
-                components.downstream = combustion + transport;
-                if (component) {
-                  total = components[component];
-                } else {
-                  total = _.reduce(components, function (a, b) { return a + b; }, 0);
-                }
-
-                // Handle ratio
-                total = utils.getValueForRatio(total, ratio, prelim, showCoke, data.info[key], m);
-
-                // Check which is bigger (or smaller)
-                if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
-                  opgeeExtent = extraction;
-                }
-                if (!extent || (total * minMaxMultiplier > extent * minMaxMultiplier)) {
-                  extent = total;
-                }
-              });
             }
           }
         }
@@ -619,39 +625,44 @@ var utils = {
   },
 
   // Get the current OPGEE model based on model parameters
-  getOPGEEModel: function (gwp, fugitives, venting, water, flaring) {
+  getOPGEEModel: function (methane, gwp, fugitives, venting, water, flaring, solarsteam) {
     var metadata = Oci.data.metadata;
+
+    var ci = Number(methane);
     var gi = Number(gwp);
     var pi = this.indexInArray(this.trimMetadataArray(metadata.fugitives.split(',')), fugitives);
     var vi = this.indexInArray(this.trimMetadataArray(metadata.venting.split(',')), venting);
     var wi = this.indexInArray(this.trimMetadataArray(metadata.water.split(',')), water);
     var fi = this.indexInArray(this.trimMetadataArray(metadata.flare.split(',')), flaring);
+    var si = this.indexInArray(this.trimMetadataArray(metadata.solarsteam.split(',')), solarsteam);
 
     // Generate model string
     var model = 'run';
     // If we don't have a match, return default
-    if (pi === -1 || vi === -1 || wi === -1 || fi === -1) {
-      model += (gi + '0000');
+    if (pi === -1 || vi === -1 || wi === -1 || fi === -1 || si === -1) {
+      model += [ci, gi, '00000'].join('');
     } else {
-      model += [gi, pi, vi, wi, fi].join('');
+      model += [ci, gi, pi, vi, wi, fi, si].join('');
     }
+    console.log(model);
     return model;
   },
 
   // Get the current PRELIM model
-  getPRELIMModel: function (gwp, hydrogen, refinery, petro) {
+  getPRELIMModel: function (gwp, hydrogen, refinery, lpg, methane) {
     var metadata = Oci.data.metadata;
     var zi = Number(gwp);
     var ri = this.trimMetadataArray(metadata.refinery.split(',')).indexOf(refinery);
-    var li = Number(petro);
+    var li = Number(lpg);
     var ai = Number(hydrogen);
+    var yi = Number(methane);
     // Generate model string
     var model = 'run';
     // If we don't have a match, return default
     if (ri === -1) {
-      model += (zi + ai + '0' + li);
+      model += [zi, ai, '0', li, yi].join('');
     } else {
-      model = model + zi + ai + ri + li;
+      model += [zi, ai, ri, li, yi].join('');
     }
     return model;
   },
@@ -718,8 +729,8 @@ var utils = {
         value: this.aggregatePrelim(prelim, 'Hydrogen')
       },
       {
-        name: 'Catalyst Regeneration (Fluid Catalytic Cracking)',
-        value: +prelim['Fluid Catalytic Cracking Regeneration']
+        name: 'Other Emissions',
+        value: +prelim['Other Emissions']
       }
     ];
     return _.filter(refining, function (el) {

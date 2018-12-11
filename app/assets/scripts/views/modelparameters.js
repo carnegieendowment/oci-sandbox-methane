@@ -20,6 +20,8 @@ var cokeValues;
 var cokeLabels;
 var fugitivesValues;
 var fugitivesLabels;
+var solarsteamLabels;
+var solarsteamValues;
 
 var ModelParameters = Backbone.View.extend({
 
@@ -52,11 +54,13 @@ var ModelParameters = Backbone.View.extend({
       fugitives: (this.fugitivesSlider.get() / 100),
       water: (this.waterSlider.get() / 100),
       flaring: (this.flaringSlider.get() / 100),
+      solarsteam: (this.solarsteamSlider.get() / 100),
       showCoke: (this.cokeSlider.get() / 100),
       refinery: $('#dropdown-refinery').val(),
-      petro: $('#toggle-petro').is(':checked'),
+      lpg: $('#toggle-lpg').is(':checked'),
       gwp: $('#toggle-gwp').is(':checked'),
-      hydrogen: $('#toggle-hydrogen').is(':checked')
+      hydrogen: $('#toggle-hydrogen').is(':unchecked'),
+      methane: $('#toggle-methane').is(':unchecked')
     };
   },
 
@@ -65,13 +69,17 @@ var ModelParameters = Backbone.View.extend({
     if (params.opgee) {
       try {
         // We know the format of the param 'run###'
-        var venting = params.opgee[5];
+        var venting = params.opgee[6];
         var water = params.opgee[7];
-        var flaring = params.opgee[6];
-        var gwp = params.opgee[3];
-        var fugitives = params.opgee[4];
+        var flaring = params.opgee[8];
+        var solarsteam = params.opgee[9];
+        var gwp = params.opgee[4];
+        var fugitives = params.opgee[5];
+        var methane = params.opgee[3];
         var fugitivesValue = parseFloat(Oci.data.metadata.fugitives.split(',')[fugitives]) * 100;
         this.fugitivesSlider.set(fugitivesValue);
+        var solarsteamValue = parseFloat(Oci.data.metadata.solarsteam.split(',')[solarsteam]) * 100;
+        this.solarsteamSlider.set(solarsteamValue);
         var ventingValue = parseFloat(Oci.data.metadata.venting.split(',')[venting]) * 100;
         this.ventingSlider.set(ventingValue);
         var waterValue = parseFloat(Oci.data.metadata.water.split(',')[water]) * 100;
@@ -79,6 +87,7 @@ var ModelParameters = Backbone.View.extend({
         var flaringValue = parseFloat(Oci.data.metadata.flare.split(',')[flaring]) * 100;
         this.flaringSlider.set(flaringValue);
         $('#toggle-gwp').attr('checked', Boolean(gwp));
+        $('#toggle-methane').attr('checked', Boolean(methane));
       } catch (e) {
         console.warn('bad input parameter', e);
       }
@@ -87,13 +96,14 @@ var ModelParameters = Backbone.View.extend({
     if (params.prelim) {
       try {
         // We know the format of the param 'run##'
-        var refinery = params.prelim[3];
-        var petro = params.prelim[4];
-        var hydrogen = params.prelim[5];
+        var refinery = params.prelim[4];
+        var lpg = params.prelim[5];
+        var hydrogen = params.prelim[3];
         $('#dropdown-refinery').prop('selectedIndex', refinery);
-        $('#toggle-petro').attr('checked', Boolean(petro));
+        $('#toggle-lpg').attr('checked', Boolean(lpg));
         $('#toggle-hydrogen').attr('checked', Boolean(hydrogen));
         $('#toggle-gwp').attr('checked', Boolean(gwp));
+        $('#toggle-methane').attr('checked', Boolean(methane));
       } catch (e) {
         console.warn('bad input parameter', e);
       }
@@ -115,14 +125,18 @@ var ModelParameters = Backbone.View.extend({
     $('.value.flare span').html(flaring + '%');
     var water = parseInt(this.waterSlider.get());
     $('.value.water span').html(water + '%');
+    var solarsteam = parseInt(this.solarsteamSlider.get());
+    $('.value.solarsteam span').html(solarsteam + '%');
     var petcoke = parseInt(this.cokeSlider.get());
     $('.value.petcoke span').html(petcoke + '%');
-    var petro = $('#toggle-petro').is(':checked') ? 'No' : 'Yes';
-    $('.value.petro span').html(petro);
-    var hydrogen = $('#toggle-hydrogen').is(':checked') ? 'No' : 'Yes';
+    var lpg = $('#toggle-lpg').is(':checked') ? 'Sell' : 'Use';
+    $('.value.lpg span').html(lpg);
+    var hydrogen = $('#toggle-hydrogen').is(':unchecked') ? 'Yes' : 'No';
     $('.value.hydrogen span').html(hydrogen);
     var gwp = $('#toggle-gwp').is(':checked') ? '20' : '100';
     $('.value.gwp span').html(gwp);
+    var methane = $('#toggle-methane').is(':unchecked') ? 'Yes' : 'No';
+    $('.value.methane span').html(methane);
     var refinery = $('#dropdown-refinery').val();
     switch (refinery) {
       case '0 = Default':
@@ -223,6 +237,25 @@ var ModelParameters = Backbone.View.extend({
       self.trigger('sliderUpdate', value);
     });
 
+    this.solarsteamSlider = noUiSlider.create($('#slider-solarsteam')[0], {
+      start: 0,
+      connect: 'lower',
+      snap: true,
+      range: _.zipObject(solarsteamLabels, solarsteamValues),
+      pips: {
+        mode: 'values',
+        values: solarsteamValues,
+        density: 10,
+        format: wNumb({
+          postfix: '%'
+        }),
+        stepped: true
+      }
+    });
+    this.solarsteamSlider.on('update', function (value) {
+      self.trigger('sliderUpdate', value);
+    });
+
     this.cokeSlider = noUiSlider.create($('#slider-coke')[0], {
       start: 100,
       connect: 'lower',
@@ -256,12 +289,14 @@ var ModelParameters = Backbone.View.extend({
     fugitivesValues = this.metadataToArray(m.fugitives);
     flaringValues = this.metadataToArray(m.flare);
     waterValues = this.metadataToArray(m.water);
+    solarsteamValues = this.metadataToArray(m.solarsteam);
     cokeValues = [0, 50, 100];
 
     ventingLabels = this.sliderHelper(ventingValues);
     fugitivesLabels = this.sliderHelper(fugitivesValues);
     flaringLabels = this.sliderHelper(flaringValues);
     waterLabels = this.sliderHelper(waterValues);
+    solarsteamLabels = this.sliderHelper(solarsteamValues);
     cokeLabels = this.sliderHelper(cokeValues);
   },
 
