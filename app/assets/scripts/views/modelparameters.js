@@ -59,8 +59,8 @@ var ModelParameters = Backbone.View.extend({
       refinery: $('#dropdown-refinery').val(),
       lpg: $('#toggle-lpg').is(':checked'),
       gwp: $('#toggle-gwp').is(':checked'),
-      hydrogen: $('#toggle-hydrogen').is(':checked'),
-      methane: $('#toggle-methane').is(':checked')
+      hydrogen: $('#toggle-hydrogen').is(':unchecked'),
+      methane: $('#toggle-methane').is(':unchecked')
     };
   },
 
